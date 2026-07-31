@@ -1,0 +1,501 @@
+loan_amnt,term,int_rate,installment,grade,sub_grade,emp_length,home_ownership,annual_inc,verification_status,purpose,dti,delinq_2yrs,fico_range_low,fico_range_high,open_acc,pub_rec,revol_bal,revol_util,total_acc,application_type,mort_acc,pub_rec_bankruptcies,Default_Probability,Prediction,Risk_Level,Recommendation
+8000.0, 36 months,7.69,249.55,A,A4,1 year,MORTGAGE,80000.0,Not Verified,debt_consolidation,8.73,0.0,680.0,684.0,11.0,0.0,7141.0,39.9,30.0,Individual,6.0,0.0,0.16099727,0,Low,Approve
+12000.0, 36 months,15.05,416.28,C,C4,< 1 year,OWN,36000.0,Verified,debt_consolidation,17.86,0.0,660.0,664.0,7.0,0.0,4374.0,58.3,13.0,Joint App,0.0,0.0,0.30650038,0,Moderate,Approve with Monitoring
+8000.0, 36 months,12.99,269.52,C,C1,2 years,RENT,26000.0,Source Verified,debt_consolidation,27.98,1.0,680.0,684.0,11.0,1.0,4837.0,56.9,15.0,Individual,0.0,1.0,0.40169668,0,Moderate,Approve with Monitoring
+5000.0, 36 months,11.49,164.86,B,B5,NaN,OWN,28000.0,Verified,other,12.69,0.0,685.0,689.0,5.0,0.0,11350.0,68.8,11.0,Individual,0.0,0.0,0.3929163,0,Moderate,Approve with Monitoring
+30800.0, 36 months,11.99,1022.86,C,C1,10+ years,MORTGAGE,150000.0,Verified,credit_card,16.28,0.0,700.0,704.0,15.0,0.0,33661.0,53.9,34.0,Individual,2.0,0.0,0.3213232,0,Moderate,Approve with Monitoring
+5000.0, 36 months,7.89,156.43,A,A5,10+ years,MORTGAGE,40000.0,Verified,debt_consolidation,27.9,0.0,685.0,689.0,13.0,0.0,24598.0,56.8,31.0,Individual,2.0,0.0,0.4857612,0,Moderate,Approve with Monitoring
+15000.0, 36 months,11.49,494.57,B,B5,10+ years,MORTGAGE,76326.0,Not Verified,debt_consolidation,30.26,0.0,685.0,689.0,18.0,0.0,17024.0,49.6,29.0,Individual,0.0,0.0,0.43364474,0,Moderate,Approve with Monitoring
+15000.0, 36 months,12.69,503.18,C,C2,10+ years,RENT,75000.0,Source Verified,debt_consolidation,18.55,3.0,730.0,734.0,15.0,0.0,13363.0,36.5,26.0,Individual,2.0,0.0,0.27292272,0,Moderate,Approve with Monitoring
+10000.0, 36 months,11.12,327.96,B,B3,10+ years,MORTGAGE,147500.0,Source Verified,debt_consolidation,9.92,1.0,730.0,734.0,22.0,0.0,41320.0,55.4,41.0,Individual,,0.0,0.30199397,0,Moderate,Approve with Monitoring
+20550.0, 36 months,9.99,663.0,B,B3,8 years,MORTGAGE,52000.0,Not Verified,debt_consolidation,25.8,0.0,680.0,684.0,11.0,1.0,5154.0,20.0,19.0,Individual,2.0,1.0,0.43738264,0,Moderate,Approve with Monitoring
+13000.0, 36 months,5.32,391.5,A,A1,10+ years,MORTGAGE,75000.0,Not Verified,credit_card,3.57,0.0,690.0,694.0,8.0,1.0,9895.0,32.2,14.0,Individual,1.0,0.0,0.15488453,0,Low,Approve
+15000.0, 36 months,9.17,478.19,B,B2,7 years,MORTGAGE,70000.0,Source Verified,home_improvement,27.53,3.0,695.0,699.0,13.0,0.0,12451.0,46.8,43.0,Individual,1.0,0.0,0.40016487,0,Moderate,Approve with Monitoring
+11000.0, 36 months,10.16,355.77,B,B1,6 years,MORTGAGE,80000.0,Verified,debt_consolidation,16.52,0.0,680.0,684.0,8.0,0.0,3579.0,55.9,18.0,Individual,1.0,0.0,0.22200403,0,Moderate,Approve with Monitoring
+10475.0, 36 months,17.14,374.2,D,D4,2 years,RENT,35000.0,Source Verified,debt_consolidation,23.05,0.0,660.0,664.0,16.0,0.0,10513.0,54.5,20.0,Individual,0.0,0.0,0.40378857,0,Moderate,Approve with Monitoring
+15000.0, 36 months,8.9,476.3,A,A5,NaN,MORTGAGE,80000.0,Verified,credit_card,18.99,0.0,705.0,709.0,13.0,0.0,29960.0,85.5,33.0,Individual,4.0,0.0,0.28188175,0,Moderate,Approve with Monitoring
+27575.0, 60 months,16.2,673.51,C,C4,9 years,MORTGAGE,75000.0,Verified,debt_consolidation,23.81,0.0,720.0,724.0,12.0,0.0,30831.0,55.5,25.0,Individual,3.0,0.0,0.35599995,0,Moderate,Approve with Monitoring
+12000.0, 36 months,9.17,382.55,B,B2,10+ years,MORTGAGE,106500.0,Source Verified,credit_card,8.72,0.0,670.0,674.0,10.0,1.0,8690.0,56.1,22.0,Individual,5.0,1.0,0.14581268,0,Low,Approve
+5000.0, 36 months,10.99,163.67,B,B2,10+ years,MORTGAGE,65000.0,Verified,vacation,23.43,0.0,740.0,744.0,11.0,0.0,9351.0,60.3,37.0,Individual,3.0,0.0,0.3156593,0,Moderate,Approve with Monitoring
+35000.0, 36 months,13.49,1187.57,C,C2,< 1 year,RENT,180000.0,Source Verified,debt_consolidation,10.86,0.0,690.0,694.0,11.0,1.0,15644.0,65.7,22.0,Individual,1.0,1.0,0.2710187,0,Moderate,Approve with Monitoring
+11500.0, 36 months,19.05,421.84,D,D4,10+ years,RENT,34000.0,Verified,debt_consolidation,22.06,0.0,660.0,664.0,6.0,0.0,3518.0,92.6,9.0,Individual,0.0,0.0,0.3430778,0,Moderate,Approve with Monitoring
+5000.0, 36 months,11.47,164.81,B,B5,< 1 year,RENT,35000.0,Source Verified,debt_consolidation,25.79,0.0,660.0,664.0,10.0,0.0,11120.0,69.1,11.0,Individual,0.0,0.0,0.42735884,0,Moderate,Approve with Monitoring
+3200.0, 36 months,8.39,100.86,B,B1,3 years,MORTGAGE,48000.0,Verified,major_purchase,7.78,0.0,765.0,769.0,11.0,0.0,2454.0,17.9,17.0,Individual,1.0,0.0,0.10191543,0,Low,Approve
+35000.0, 36 months,17.77,1261.3,D,D1,1 year,OWN,95000.0,Source Verified,debt_consolidation,16.84,0.0,705.0,709.0,7.0,0.0,14769.0,71.3,28.0,Individual,2.0,0.0,0.25902012,0,Moderate,Approve with Monitoring
+5500.0, 36 months,15.61,192.31,C,C3,2 years,RENT,19000.0,Verified,debt_consolidation,34.87,0.0,660.0,664.0,8.0,0.0,7169.0,84.3,10.0,Individual,0.0,0.0,0.39168617,0,Moderate,Approve with Monitoring
+1000.0, 36 months,18.25,36.28,D,D3,10+ years,MORTGAGE,50000.0,Not Verified,home_improvement,32.14,0.0,695.0,699.0,13.0,0.0,24255.0,82.8,22.0,Individual,1.0,0.0,0.37759873,0,Moderate,Approve with Monitoring
+4000.0, 36 months,9.99,129.05,B,B3,1 year,RENT,28000.0,Not Verified,car,32.32,0.0,695.0,699.0,12.0,1.0,468.0,2.9,20.0,Individual,1.0,0.0,0.38131014,0,Moderate,Approve with Monitoring
+14500.0, 60 months,18.99,376.06,D,D3,3 years,RENT,60000.0,Verified,debt_consolidation,26.52,0.0,660.0,664.0,8.0,2.0,12284.0,72.3,25.0,Individual,1.0,1.0,0.42734826,0,Moderate,Approve with Monitoring
+10000.0, 36 months,17.99,361.48,D,D2,10+ years,RENT,47000.0,Source Verified,credit_card,17.9,0.0,685.0,689.0,10.0,1.0,1877.0,13.0,10.0,Individual,0.0,0.0,0.25914812,0,Moderate,Approve with Monitoring
+35000.0, 36 months,18.55,1275.02,E,E2,10+ years,MORTGAGE,78000.0,Verified,debt_consolidation,27.14,0.0,660.0,664.0,12.0,0.0,31487.0,56.0,23.0,Individual,2.0,0.0,0.4433279,0,Moderate,Approve with Monitoring
+30125.0, 36 months,19.99,1119.4,D,D4,8 years,MORTGAGE,203908.0,Verified,debt_consolidation,29.02,0.0,680.0,684.0,30.0,0.0,324405.0,60.8,55.0,Individual,3.0,0.0,0.2643551,0,Moderate,Approve with Monitoring
+28700.0, 60 months,17.14,715.44,D,D4,3 years,MORTGAGE,76000.0,Source Verified,debt_consolidation,27.64,0.0,690.0,694.0,13.0,0.0,50096.0,63.8,26.0,Individual,1.0,0.0,0.37957516,0,Moderate,Approve with Monitoring
+4550.0, 36 months,14.08,155.69,C,C3,4 years,MORTGAGE,125000.0,Source Verified,debt_consolidation,5.5,1.0,660.0,664.0,8.0,0.0,2502.0,75.8,11.0,Individual,1.0,0.0,0.2167026,0,Moderate,Approve with Monitoring
+10000.0, 36 months,8.18,314.2,B,B1,5 years,RENT,46800.0,Source Verified,debt_consolidation,30.25,0.0,670.0,674.0,19.0,0.0,25141.0,60.9,37.0,Individual,0.0,0.0,0.49113825,0,Moderate,Approve with Monitoring
+7450.0, 36 months,13.18,251.67,C,C3,< 1 year,RENT,14900.0,Verified,debt_consolidation,28.85,1.0,690.0,694.0,13.0,0.0,6063.0,31.4,22.0,Individual,0.0,0.0,0.4402767,0,Moderate,Approve with Monitoring
+8525.0, 36 months,12.62,285.69,C,C1,NaN,MORTGAGE,37848.0,Verified,credit_card,28.41,1.0,695.0,699.0,13.0,0.0,15935.0,38.0,27.0,Individual,3.0,0.0,0.6143647,1,High,Manual Credit Review
+30000.0, 60 months,14.49,705.7,C,C4,6 years,RENT,200000.0,Verified,debt_consolidation,9.93,0.0,670.0,674.0,6.0,2.0,39650.0,94.0,17.0,Individual,0.0,0.0,0.16721931,0,Low,Approve
+10000.0, 36 months,12.99,336.9,C,C2,9 years,MORTGAGE,47000.0,Not Verified,credit_card,16.75,1.0,660.0,664.0,10.0,1.0,6376.0,98.1,22.0,Individual,2.0,1.0,0.27777636,0,Moderate,Approve with Monitoring
+8000.0, 36 months,7.49,248.82,A,A4,10+ years,MORTGAGE,167000.0,Source Verified,debt_consolidation,12.14,0.0,700.0,704.0,12.0,1.0,15719.0,56.5,27.0,Individual,3.0,1.0,0.2627148,0,Moderate,Approve with Monitoring
+6000.0, 36 months,17.27,214.73,D,D2,10+ years,MORTGAGE,40000.0,Source Verified,debt_consolidation,24.42,0.0,695.0,699.0,12.0,2.0,3911.0,32.9,13.0,Individual,0.0,1.0,0.27700838,0,Moderate,Approve with Monitoring
+18450.0, 60 months,18.92,477.8,D,D4,3 years,MORTGAGE,41000.0,Source Verified,credit_card,20.76,0.0,685.0,689.0,11.0,1.0,10625.0,68.1,23.0,Individual,1.0,0.0,0.38926065,0,Moderate,Approve with Monitoring
+14000.0, 60 months,13.35,321.06,C,C2,10+ years,MORTGAGE,107563.0,Verified,debt_consolidation,20.59,0.0,715.0,719.0,37.0,1.0,13458.0,25.4,119.0,Individual,4.0,1.0,0.20043416,0,Moderate,Approve with Monitoring
+7950.0, 36 months,17.57,285.7,D,D2,10+ years,MORTGAGE,35000.0,Not Verified,credit_card,27.02,0.0,695.0,699.0,9.0,0.0,17807.0,92.7,13.0,Individual,1.0,0.0,0.35829398,0,Moderate,Approve with Monitoring
+22000.0, 60 months,12.69,497.09,B,B5,6 years,MORTGAGE,91663.0,Verified,credit_card,11.98,0.0,740.0,744.0,7.0,0.0,13726.0,64.1,22.0,Individual,,0.0,0.2185764,0,Moderate,Approve with Monitoring
+20650.0, 36 months,21.49,783.2,D,D5,< 1 year,MORTGAGE,70000.0,Verified,debt_consolidation,13.87,0.0,665.0,669.0,7.0,0.0,8803.0,61.0,9.0,Individual,1.0,0.0,0.4056514,0,Moderate,Approve with Monitoring
+25000.0, 36 months,11.98,830.12,B,B5,1 year,MORTGAGE,55000.0,Not Verified,debt_consolidation,30.92,0.0,695.0,699.0,8.0,0.0,23674.0,88.3,26.0,Joint App,2.0,0.0,0.32143852,0,Moderate,Approve with Monitoring
+24000.0, 60 months,12.12,535.33,B,B3,8 years,MORTGAGE,65000.0,Verified,debt_consolidation,28.15,0.0,735.0,739.0,13.0,0.0,22794.0,71.0,36.0,Individual,1.0,0.0,0.4095685,0,Moderate,Approve with Monitoring
+13600.0, 60 months,14.08,317.02,C,C3,10+ years,MORTGAGE,95000.0,Not Verified,debt_consolidation,8.51,0.0,695.0,699.0,10.0,1.0,15359.0,45.3,17.0,Individual,1.0,1.0,0.1773665,0,Low,Approve
+10000.0, 36 months,13.49,339.31,C,C2,10+ years,RENT,45000.0,Source Verified,debt_consolidation,22.4,0.0,665.0,669.0,6.0,1.0,4406.0,81.6,20.0,Individual,1.0,1.0,0.27614284,0,Moderate,Approve with Monitoring
+29850.0, 36 months,9.17,951.59,B,B2,3 years,MORTGAGE,128000.0,Source Verified,debt_consolidation,10.03,0.0,690.0,694.0,8.0,0.0,9344.0,45.1,31.0,Individual,4.0,0.0,0.12842543,0,Low,Approve
+15000.0, 36 months,12.39,501.02,C,C1,9 years,MORTGAGE,55000.0,Verified,home_improvement,18.28,3.0,660.0,664.0,8.0,1.0,3916.0,67.5,15.0,Individual,1.0,0.0,0.42061788,0,Moderate,Approve with Monitoring
+30000.0, 36 months,19.19,1102.57,E,E3,2 years,RENT,60000.0,Source Verified,debt_consolidation,20.2,0.0,670.0,674.0,14.0,0.0,10392.0,65.8,24.0,Individual,0.0,0.0,0.3590616,0,Moderate,Approve with Monitoring
+14000.0, 60 months,17.99,355.44,D,D2,10+ years,MORTGAGE,50000.0,Source Verified,debt_consolidation,12.75,0.0,685.0,689.0,10.0,1.0,10369.0,59.6,16.0,Individual,2.0,1.0,0.23471355,0,Moderate,Approve with Monitoring
+8000.0, 36 months,13.99,273.39,C,C4,7 years,RENT,42000.0,Source Verified,debt_consolidation,22.09,1.0,700.0,704.0,14.0,0.0,11172.0,58.2,16.0,Individual,0.0,0.0,0.39245862,0,Moderate,Approve with Monitoring
+16000.0, 36 months,5.32,481.84,A,A1,2 years,MORTGAGE,80000.0,Not Verified,credit_card,21.93,0.0,780.0,784.0,15.0,0.0,806.0,4.4,31.0,Individual,2.0,0.0,0.18794101,0,Low,Approve
+16450.0, 36 months,18.75,600.92,D,D3,8 years,MORTGAGE,42000.0,Verified,debt_consolidation,29.03,0.0,665.0,669.0,10.0,0.0,8384.0,81.4,14.0,Individual,0.0,0.0,0.3473418,0,Moderate,Approve with Monitoring
+12650.0, 60 months,24.08,364.51,F,F2,3 years,MORTGAGE,65000.0,Verified,debt_consolidation,11.69,0.0,665.0,669.0,11.0,0.0,10351.0,48.4,21.0,Individual,3.0,0.0,0.2563596,0,Moderate,Approve with Monitoring
+12000.0, 36 months,14.07,410.54,C,C3,< 1 year,RENT,32000.0,Source Verified,other,2.25,0.0,770.0,774.0,3.0,0.0,487.0,3.4,3.0,Individual,0.0,0.0,0.3096031,0,Moderate,Approve with Monitoring
+5000.0, 60 months,9.76,105.65,B,B1,7 years,MORTGAGE,60000.0,Verified,car,14.34,0.0,785.0,789.0,8.0,0.0,8602.0,18.2,23.0,Individual,4.0,0.0,0.21917735,0,Moderate,Approve with Monitoring
+10000.0, 36 months,11.99,332.1,C,C1,10+ years,OWN,55000.0,Not Verified,debt_consolidation,15.38,1.0,660.0,664.0,15.0,0.0,12012.0,48.6,36.0,Individual,2.0,0.0,0.2803743,0,Moderate,Approve with Monitoring
+24000.0, 36 months,12.99,808.54,C,C2,10+ years,RENT,110000.0,Verified,medical,13.33,0.0,700.0,704.0,9.0,0.0,7782.0,90.5,12.0,Individual,0.0,0.0,0.22474252,0,Moderate,Approve with Monitoring
+6000.0, 36 months,7.89,187.72,A,A5,8 years,RENT,58000.0,Source Verified,debt_consolidation,14.59,0.0,720.0,724.0,8.0,0.0,7271.0,24.9,13.0,Individual,0.0,0.0,0.29139507,0,Moderate,Approve with Monitoring
+16000.0, 60 months,18.99,414.97,D,D3,4 years,RENT,89000.0,Not Verified,debt_consolidation,23.27,0.0,665.0,669.0,10.0,1.0,16840.0,66.8,25.0,Individual,3.0,1.0,0.38150445,0,Moderate,Approve with Monitoring
+4200.0, 36 months,15.31,146.24,C,C5,8 years,RENT,31000.0,Source Verified,debt_consolidation,24.16,1.0,745.0,749.0,10.0,0.0,593.0,10.6,34.0,Individual,3.0,0.0,0.2539811,0,Moderate,Approve with Monitoring
+27000.0, 60 months,21.97,745.26,E,E4,10+ years,MORTGAGE,60000.0,Verified,debt_consolidation,22.82,0.0,700.0,704.0,11.0,0.0,51419.0,83.0,20.0,Individual,4.0,0.0,0.3351774,0,Moderate,Approve with Monitoring
+35000.0, 60 months,23.13,989.29,F,F1,2 years,MORTGAGE,78000.0,Source Verified,debt_consolidation,14.25,3.0,670.0,674.0,13.0,0.0,5981.0,60.4,45.0,Individual,5.0,0.0,0.4867522,0,Moderate,Approve with Monitoring
+20000.0, 60 months,14.65,472.14,C,C5,10+ years,MORTGAGE,104000.0,Source Verified,debt_consolidation,11.7,0.0,700.0,704.0,9.0,0.0,11097.0,40.9,23.0,Individual,4.0,0.0,0.18595344,0,Low,Approve
+28800.0, 36 months,5.32,867.31,A,A1,NaN,MORTGAGE,40000.0,Verified,major_purchase,18.74,0.0,820.0,824.0,9.0,0.0,3933.0,7.8,25.0,Joint App,3.0,0.0,0.16910256,0,Low,Approve
+10000.0, 36 months,12.79,335.93,C,C1,1 year,RENT,72000.0,Not Verified,credit_card,12.23,0.0,715.0,719.0,10.0,0.0,6760.0,34.1,12.0,Individual,0.0,0.0,0.25267372,0,Moderate,Approve with Monitoring
+6000.0, 36 months,13.33,203.12,C,C3,5 years,RENT,80000.0,Source Verified,debt_consolidation,11.51,0.0,690.0,694.0,7.0,1.0,12496.0,63.7,37.0,Individual,0.0,0.0,0.23174615,0,Moderate,Approve with Monitoring
+10000.0, 36 months,9.17,318.79,B,B2,10+ years,MORTGAGE,80000.0,Not Verified,debt_consolidation,17.04,0.0,695.0,699.0,9.0,0.0,12321.0,39.1,23.0,Individual,2.0,0.0,0.19896993,0,Low,Approve
+20000.0, 60 months,11.99,444.79,C,C1,10+ years,MORTGAGE,110000.0,Not Verified,debt_consolidation,28.55,0.0,685.0,689.0,19.0,0.0,37024.0,55.7,44.0,Individual,2.0,0.0,0.31368187,0,Moderate,Approve with Monitoring
+20000.0, 60 months,10.15,426.42,B,B2,2 years,MORTGAGE,95000.0,Source Verified,credit_card,1.3,0.0,680.0,684.0,7.0,0.0,25418.0,68.0,17.0,Individual,4.0,0.0,0.24337882,0,Moderate,Approve with Monitoring
+8250.0, 36 months,19.19,303.21,E,E3,10+ years,MORTGAGE,16500.0,Verified,other,18.76,0.0,680.0,684.0,5.0,0.0,9367.0,54.1,7.0,Individual,0.0,0.0,0.4110193,0,Moderate,Approve with Monitoring
+19125.0, 36 months,15.22,665.04,C,C3,10+ years,MORTGAGE,88145.72,Source Verified,credit_card,15.22,0.0,695.0,699.0,13.0,0.0,20670.0,63.8,20.0,Individual,6.0,0.0,0.2631805,0,Moderate,Approve with Monitoring
+35000.0, 36 months,20.0,1300.73,D,D4,< 1 year,MORTGAGE,200000.0,Not Verified,home_improvement,5.53,0.0,685.0,689.0,6.0,0.0,33846.0,55.9,18.0,Individual,1.0,0.0,0.20900005,0,Moderate,Approve with Monitoring
+6000.0, 36 months,8.18,188.52,B,B1,3 years,MORTGAGE,48500.0,Not Verified,debt_consolidation,22.0,0.0,700.0,704.0,12.0,0.0,14908.0,46.7,22.0,Individual,1.0,0.0,0.420537,0,Moderate,Approve with Monitoring
+35000.0, 60 months,13.33,802.29,C,C3,2 years,MORTGAGE,130000.0,Verified,debt_consolidation,25.73,0.0,740.0,744.0,18.0,0.0,35275.0,31.8,45.0,Individual,10.0,0.0,0.300744,0,Moderate,Approve with Monitoring
+13000.0, 36 months,11.53,428.88,B,B5,2 years,OWN,125000.0,Source Verified,debt_consolidation,12.4,3.0,670.0,674.0,13.0,0.0,11595.0,55.9,31.0,Individual,1.0,0.0,0.24260291,0,Moderate,Approve with Monitoring
+7500.0, 36 months,18.49,273.0,D,D2,4 years,MORTGAGE,66000.0,Not Verified,other,24.04,0.0,700.0,704.0,13.0,0.0,18769.0,59.6,41.0,Individual,3.0,0.0,0.3180622,0,Moderate,Approve with Monitoring
+8000.0, 36 months,6.03,243.49,A,A1,6 years,MORTGAGE,105000.0,Not Verified,home_improvement,2.5,0.0,795.0,799.0,5.0,0.0,531.0,2.9,18.0,Individual,3.0,0.0,0.029842574,0,Low,Approve
+4325.0, 36 months,15.99,152.04,C,C5,1 year,MORTGAGE,25000.0,Source Verified,debt_consolidation,4.99,1.0,665.0,669.0,5.0,1.0,1141.0,14.8,18.0,Individual,0.0,0.0,0.34548908,0,Moderate,Approve with Monitoring
+28000.0, 36 months,6.92,863.54,A,A4,10+ years,MORTGAGE,101000.0,Source Verified,debt_consolidation,8.88,2.0,660.0,664.0,13.0,0.0,48930.0,71.7,30.0,Individual,3.0,0.0,0.19000259,0,Low,Approve
+8800.0, 36 months,11.53,290.32,B,B5,10+ years,MORTGAGE,29000.0,Verified,debt_consolidation,22.39,0.0,675.0,679.0,10.0,0.0,12327.0,70.8,18.0,Individual,0.0,0.0,0.45170012,0,Moderate,Approve with Monitoring
+15000.0, 60 months,16.29,367.09,D,D2,9 years,RENT,37000.0,Source Verified,credit_card,32.14,0.0,690.0,694.0,7.0,0.0,13142.0,84.8,24.0,Individual,0.0,0.0,0.4831386,0,Moderate,Approve with Monitoring
+5000.0, 36 months,13.99,170.87,C,C4,1 year,OWN,52500.0,Source Verified,home_improvement,29.3,1.0,705.0,709.0,24.0,0.0,6152.0,29.3,50.0,Individual,1.0,0.0,0.40729472,0,Moderate,Approve with Monitoring
+15000.0, 36 months,9.17,478.19,B,B2,4 years,RENT,105000.0,Source Verified,debt_consolidation,16.78,0.0,690.0,694.0,18.0,0.0,34827.0,62.3,40.0,Individual,0.0,0.0,0.15918319,0,Low,Approve
+5400.0, 36 months,15.61,188.81,D,D1,NaN,RENT,15000.0,Verified,credit_card,16.4,0.0,690.0,694.0,10.0,0.0,8931.0,85.1,23.0,Individual,0.0,0.0,0.3196766,0,Moderate,Approve with Monitoring
+8000.0, 36 months,11.99,265.68,B,B5,10+ years,MORTGAGE,143000.0,Source Verified,debt_consolidation,18.36,1.0,675.0,679.0,18.0,0.0,17464.0,77.3,59.0,Individual,3.0,0.0,0.27631754,0,Moderate,Approve with Monitoring
+20000.0, 36 months,7.89,625.72,A,A5,10+ years,MORTGAGE,111000.0,Source Verified,debt_consolidation,12.37,0.0,660.0,664.0,7.0,0.0,15373.0,85.9,26.0,Individual,2.0,0.0,0.25087714,0,Moderate,Approve with Monitoring
+15000.0, 36 months,15.99,527.29,C,C5,6 years,RENT,65000.0,Source Verified,debt_consolidation,20.21,0.0,680.0,684.0,9.0,0.0,8740.0,59.9,16.0,Individual,0.0,0.0,0.30621058,0,Moderate,Approve with Monitoring
+13475.0, 36 months,12.35,449.82,B,B4,2 years,RENT,53000.0,Verified,debt_consolidation,23.23,0.0,680.0,684.0,18.0,0.0,11106.0,55.3,44.0,Individual,0.0,0.0,0.37956196,0,Moderate,Approve with Monitoring
+15000.0, 60 months,13.33,343.84,C,C3,1 year,OWN,104000.0,Source Verified,debt_consolidation,4.3,0.0,760.0,764.0,6.0,0.0,1455.0,3.4,20.0,Individual,1.0,0.0,0.14285341,0,Low,Approve
+10000.0, 36 months,15.31,348.18,C,C4,3 years,RENT,110000.0,Source Verified,debt_consolidation,14.92,0.0,715.0,719.0,7.0,1.0,4842.0,43.2,11.0,Individual,0.0,0.0,0.23093446,0,Moderate,Approve with Monitoring
+19250.0, 60 months,14.65,454.43,C,C5,NaN,MORTGAGE,51000.0,Verified,credit_card,31.44,0.0,710.0,714.0,15.0,0.0,23074.0,33.0,45.0,Individual,4.0,0.0,0.41397887,0,Moderate,Approve with Monitoring
+10000.0, 36 months,11.99,332.1,B,B5,1 year,RENT,25000.0,Source Verified,debt_consolidation,14.98,1.0,680.0,684.0,7.0,0.0,6583.0,33.6,13.0,Individual,0.0,0.0,0.32622865,0,Moderate,Approve with Monitoring
+14000.0, 36 months,12.59,468.96,C,C2,10+ years,RENT,106000.0,Source Verified,debt_consolidation,13.26,0.0,685.0,689.0,11.0,0.0,13839.0,27.7,18.0,Individual,2.0,0.0,0.22366907,0,Moderate,Approve with Monitoring
+7200.0, 36 months,13.99,246.05,C,C4,10+ years,MORTGAGE,54000.0,Verified,debt_consolidation,14.04,1.0,675.0,679.0,10.0,0.0,19818.0,89.3,23.0,Individual,6.0,0.0,0.29074675,0,Moderate,Approve with Monitoring
+15000.0, 36 months,11.48,494.5,B,B5,3 years,RENT,60000.0,Verified,credit_card,20.12,1.0,680.0,684.0,12.0,0.0,16847.0,52.8,29.0,Individual,3.0,0.0,0.4223567,0,Moderate,Approve with Monitoring
+13000.0, 60 months,14.99,309.21,C,C5,< 1 year,MORTGAGE,90000.0,Source Verified,debt_consolidation,12.68,0.0,660.0,664.0,13.0,0.0,7347.0,38.7,24.0,Individual,3.0,0.0,0.1558237,0,Low,Approve
+11300.0, 36 months,11.99,375.27,B,B3,10+ years,MORTGAGE,54000.0,Source Verified,credit_card,31.69,0.0,705.0,709.0,16.0,0.0,31122.0,59.1,41.0,Individual,11.0,0.0,0.36091372,0,Moderate,Approve with Monitoring
+20000.0, 36 months,11.48,659.33,B,B5,10+ years,MORTGAGE,69000.0,Not Verified,debt_consolidation,17.7,0.0,745.0,749.0,19.0,0.0,12750.0,35.3,36.0,Individual,1.0,0.0,0.4126586,0,Moderate,Approve with Monitoring
+20000.0, 60 months,13.99,465.27,C,C4,9 years,RENT,75000.0,Source Verified,debt_consolidation,18.4,0.0,685.0,689.0,19.0,0.0,12487.0,66.4,35.0,Individual,1.0,0.0,0.37090963,0,Moderate,Approve with Monitoring
+10000.0, 36 months,5.32,301.15,A,A1,3 years,RENT,72000.0,Source Verified,credit_card,10.0,0.0,690.0,694.0,7.0,1.0,9257.0,45.2,9.0,Individual,0.0,0.0,0.14673075,0,Low,Approve
+25000.0, 36 months,6.92,771.02,A,A4,10+ years,OWN,94000.0,Verified,debt_consolidation,16.58,0.0,700.0,704.0,7.0,0.0,22626.0,53.7,16.0,Individual,0.0,0.0,0.14264469,0,Low,Approve
+13000.0, 36 months,7.89,406.72,A,A5,5 years,RENT,50000.0,Source Verified,home_improvement,20.02,0.0,675.0,679.0,12.0,0.0,12202.0,35.6,19.0,Individual,0.0,0.0,0.33507162,0,Moderate,Approve with Monitoring
+2000.0, 36 months,14.46,68.81,C,C4,8 years,RENT,76500.0,Verified,debt_consolidation,25.08,0.0,685.0,689.0,20.0,0.0,15391.0,56.6,21.0,Individual,0.0,0.0,0.46674448,0,Moderate,Approve with Monitoring
+3600.0, 36 months,12.99,121.29,C,C2,10+ years,RENT,54000.0,Not Verified,debt_consolidation,24.6,0.0,680.0,684.0,14.0,0.0,28338.0,49.6,45.0,Individual,0.0,0.0,0.34996402,0,Moderate,Approve with Monitoring
+25000.0, 60 months,10.75,540.45,B,B4,8 years,MORTGAGE,86800.0,Not Verified,debt_consolidation,17.19,1.0,740.0,744.0,27.0,0.0,68300.0,12.8,45.0,Individual,3.0,0.0,0.26517066,0,Moderate,Approve with Monitoring
+30000.0, 60 months,13.67,692.93,C,C3,10+ years,MORTGAGE,99000.0,Source Verified,debt_consolidation,20.39,0.0,680.0,684.0,21.0,0.0,20296.0,56.4,46.0,Individual,4.0,0.0,0.347467,0,Moderate,Approve with Monitoring
+8000.0, 36 months,9.17,255.04,B,B2,4 years,RENT,55000.0,Source Verified,credit_card,7.0,0.0,685.0,689.0,5.0,0.0,44351.0,75.9,9.0,Individual,1.0,0.0,0.26704875,0,Moderate,Approve with Monitoring
+19625.0, 60 months,24.99,575.91,F,F4,10+ years,MORTGAGE,60000.0,Source Verified,debt_consolidation,24.34,0.0,665.0,669.0,22.0,0.0,16672.0,82.1,38.0,Individual,5.0,0.0,0.49185115,0,Moderate,Approve with Monitoring
+11200.0, 60 months,16.99,278.29,D,D1,10+ years,MORTGAGE,68000.0,Verified,debt_consolidation,23.77,0.0,670.0,674.0,23.0,0.0,43113.0,61.5,63.0,Individual,4.0,0.0,0.3022931,0,Moderate,Approve with Monitoring
+15000.0, 36 months,5.32,451.73,A,A1,9 years,RENT,90700.0,Not Verified,credit_card,12.05,0.0,780.0,784.0,8.0,0.0,19687.0,44.1,30.0,Individual,1.0,0.0,0.1551938,0,Low,Approve
+15000.0, 60 months,9.99,318.64,B,B3,2 years,RENT,61000.0,Not Verified,debt_consolidation,16.82,0.0,680.0,684.0,19.0,1.0,8276.0,24.9,28.0,Individual,0.0,1.0,0.28269532,0,Moderate,Approve with Monitoring
+20000.0, 36 months,12.99,673.79,C,C2,10+ years,MORTGAGE,69000.0,Verified,debt_consolidation,20.83,1.0,700.0,704.0,15.0,0.0,16298.0,31.2,27.0,Individual,4.0,0.0,0.36978614,0,Moderate,Approve with Monitoring
+5000.0, 36 months,11.47,164.81,B,B5,NaN,OWN,15600.0,Verified,debt_consolidation,21.08,0.0,665.0,669.0,13.0,0.0,6527.0,32.3,20.0,Individual,0.0,0.0,0.39745146,0,Moderate,Approve with Monitoring
+40000.0, 60 months,17.97,1015.09,D,D1,7 years,OWN,65000.0,Verified,home_improvement,22.01,0.0,775.0,779.0,15.0,0.0,129.0,0.2,17.0,Joint App,1.0,0.0,0.4485547,0,Moderate,Approve with Monitoring
+35000.0, 36 months,19.72,1295.74,D,D5,10+ years,RENT,133000.0,Verified,debt_consolidation,18.38,1.0,675.0,679.0,12.0,0.0,22008.0,95.7,34.0,Individual,0.0,0.0,0.29124,0,Moderate,Approve with Monitoring
+4000.0, 36 months,10.78,130.54,C,C1,2 years,OWN,32000.0,Not Verified,wedding,0.38,0.0,680.0,684.0,2.0,0.0,887.0,38.6,5.0,Individual,,,0.23655501,0,Moderate,Approve with Monitoring
+12000.0, 60 months,7.89,242.69,A,A5,10+ years,MORTGAGE,80000.0,Not Verified,credit_card,23.54,0.0,735.0,739.0,11.0,0.0,10685.0,50.4,23.0,Individual,3.0,0.0,0.1956318,0,Low,Approve
+18000.0, 36 months,7.89,563.15,A,A5,NaN,RENT,48000.0,Verified,credit_card,12.38,0.0,680.0,684.0,4.0,0.0,10850.0,68.2,11.0,Individual,1.0,0.0,0.33677223,0,Moderate,Approve with Monitoring
+12000.0, 60 months,17.99,304.66,D,D2,8 years,MORTGAGE,200000.0,Source Verified,credit_card,9.64,2.0,700.0,704.0,5.0,0.0,14240.0,32.6,24.0,Individual,6.0,0.0,0.15232326,0,Low,Approve
+25000.0, 60 months,30.75,820.39,F,F5,6 years,OWN,89763.0,Verified,credit_card,37.86,0.0,660.0,664.0,33.0,0.0,42969.0,49.8,52.0,Individual,1.0,0.0,0.4997947,0,Moderate,Approve with Monitoring
+10000.0, 36 months,8.24,314.48,B,B1,10+ years,MORTGAGE,68000.0,Source Verified,other,12.93,0.0,670.0,674.0,7.0,0.0,6708.0,36.9,21.0,Individual,8.0,0.0,0.24948017,0,Moderate,Approve with Monitoring
+18000.0, 36 months,8.9,571.56,A,A5,NaN,RENT,80000.0,Verified,credit_card,9.83,0.0,695.0,699.0,14.0,1.0,7568.0,33.0,69.0,Individual,7.0,1.0,0.26569635,0,Moderate,Approve with Monitoring
+3000.0, 36 months,13.53,101.85,B,B5,10+ years,RENT,50000.0,Not Verified,major_purchase,9.29,0.0,710.0,714.0,12.0,1.0,7034.0,55.0,16.0,Individual,0.0,1.0,0.2959323,0,Moderate,Approve with Monitoring
+18000.0, 36 months,11.47,593.32,B,B5,NaN,MORTGAGE,54000.0,Verified,debt_consolidation,32.94,0.0,675.0,679.0,11.0,0.0,20208.0,88.1,31.0,Individual,5.0,0.0,0.49349898,0,Moderate,Approve with Monitoring
+10000.0, 60 months,9.99,212.43,B,B3,2 years,MORTGAGE,49000.0,Not Verified,credit_card,16.58,0.0,700.0,704.0,13.0,0.0,6329.0,36.8,32.0,Individual,1.0,0.0,0.39520988,0,Moderate,Approve with Monitoring
+16000.0, 36 months,7.49,497.63,A,A4,1 year,MORTGAGE,76800.0,Source Verified,credit_card,25.77,0.0,700.0,704.0,19.0,0.0,34504.0,49.8,32.0,Individual,3.0,0.0,0.37887043,0,Moderate,Approve with Monitoring
+16000.0, 60 months,15.27,382.92,C,C4,1 year,RENT,45000.0,Verified,small_business,13.92,0.0,720.0,724.0,5.0,0.0,24860.0,93.8,15.0,Individual,,0.0,0.30180565,0,Moderate,Approve with Monitoring
+22000.0, 60 months,19.05,571.3,D,D4,10+ years,MORTGAGE,62500.0,Verified,small_business,20.87,0.0,690.0,694.0,6.0,0.0,22249.0,41.4,29.0,Individual,2.0,0.0,0.46048293,0,Moderate,Approve with Monitoring
+18900.0, 36 months,11.99,627.67,B,B5,< 1 year,OWN,45000.0,Not Verified,debt_consolidation,35.37,0.0,695.0,699.0,16.0,0.0,19224.0,88.2,30.0,Individual,0.0,0.0,0.59910274,1,High,Manual Credit Review
+3000.0, 36 months,6.03,91.31,A,A1,NaN,OWN,70000.0,Source Verified,home_improvement,6.73,0.0,820.0,824.0,6.0,0.0,1308.0,1.7,15.0,Individual,2.0,0.0,0.05725601,0,Low,Approve
+20000.0, 36 months,12.99,673.79,C,C2,3 years,MORTGAGE,70500.0,Verified,credit_card,34.69,1.0,695.0,699.0,17.0,0.0,29690.0,62.8,21.0,Individual,0.0,0.0,0.39556167,0,Moderate,Approve with Monitoring
+15000.0, 36 months,7.49,466.53,A,A4,7 years,OWN,64200.0,Not Verified,credit_card,18.49,0.0,670.0,674.0,6.0,0.0,15693.0,71.3,16.0,Individual,1.0,0.0,0.27272874,0,Moderate,Approve with Monitoring
+3000.0, 36 months,10.49,97.5,B,B3,10+ years,MORTGAGE,43000.0,Not Verified,home_improvement,5.81,0.0,665.0,669.0,4.0,1.0,3708.0,45.2,18.0,Individual,6.0,0.0,0.16229987,0,Low,Approve
+22550.0, 60 months,16.99,560.31,D,D1,2 years,MORTGAGE,47000.0,Not Verified,debt_consolidation,12.61,1.0,690.0,694.0,12.0,0.0,6013.0,30.8,24.0,Individual,0.0,0.0,0.37092316,0,Moderate,Approve with Monitoring
+5000.0, 36 months,14.33,171.7,C,C1,10+ years,MORTGAGE,83000.0,Verified,debt_consolidation,24.5,0.0,695.0,699.0,15.0,0.0,15215.0,59.2,17.0,Individual,1.0,0.0,0.42287302,0,Moderate,Approve with Monitoring
+10000.0, 36 months,16.99,356.48,D,D1,2 years,OWN,50000.0,Verified,credit_card,27.17,0.0,660.0,664.0,13.0,1.0,37381.0,76.1,34.0,Individual,2.0,1.0,0.35044786,0,Moderate,Approve with Monitoring
+24000.0, 36 months,12.49,802.78,B,B4,10+ years,MORTGAGE,55000.0,Source Verified,debt_consolidation,4.93,2.0,680.0,684.0,14.0,0.0,12616.0,48.5,50.0,Individual,2.0,0.0,0.41297016,0,Moderate,Approve with Monitoring
+14000.0, 36 months,8.18,439.88,B,B1,NaN,MORTGAGE,75000.0,Source Verified,debt_consolidation,22.51,1.0,690.0,694.0,17.0,0.0,10390.0,35.2,41.0,Individual,3.0,0.0,0.32784438,0,Moderate,Approve with Monitoring
+8500.0, 36 months,8.18,267.07,B,B1,10+ years,MORTGAGE,55000.0,Source Verified,debt_consolidation,31.44,0.0,760.0,764.0,15.0,0.0,9588.0,19.8,24.0,Individual,0.0,0.0,0.37628388,0,Moderate,Approve with Monitoring
+24000.0, 60 months,12.59,541.05,C,C2,1 year,MORTGAGE,115000.0,Verified,debt_consolidation,23.79,1.0,670.0,674.0,18.0,0.0,35240.0,83.7,37.0,Individual,4.0,0.0,0.29411748,0,Moderate,Approve with Monitoring
+21000.0, 36 months,10.49,682.46,B,B3,10+ years,RENT,55873.16,Source Verified,debt_consolidation,19.87,0.0,680.0,684.0,11.0,0.0,20880.0,80.0,20.0,Individual,0.0,0.0,0.39698517,0,Moderate,Approve with Monitoring
+21000.0, 36 months,11.99,697.41,C,C1,10+ years,MORTGAGE,125000.0,Verified,debt_consolidation,25.03,0.0,690.0,694.0,14.0,0.0,135530.0,98.0,30.0,Individual,4.0,0.0,0.33164904,0,Moderate,Approve with Monitoring
+6000.0, 36 months,9.99,193.58,B,B3,1 year,MORTGAGE,65000.0,Not Verified,debt_consolidation,22.58,4.0,680.0,684.0,17.0,0.0,4984.0,54.8,27.0,Individual,1.0,0.0,0.35498026,0,Moderate,Approve with Monitoring
+20000.0, 60 months,16.55,492.23,D,D2,4 years,MORTGAGE,62000.0,Verified,credit_card,36.97,0.0,680.0,684.0,19.0,0.0,38949.0,78.8,48.0,Individual,4.0,0.0,0.35532078,0,Moderate,Approve with Monitoring
+9600.0, 36 months,6.97,296.29,A,A3,5 years,RENT,40000.0,Not Verified,debt_consolidation,23.49,0.0,725.0,729.0,14.0,0.0,9891.0,45.4,26.0,Individual,0.0,0.0,0.4174693,0,Moderate,Approve with Monitoring
+9000.0, 36 months,10.99,294.61,B,B3,1 year,RENT,60000.0,Not Verified,credit_card,6.82,0.0,665.0,669.0,11.0,0.0,11678.0,69.1,15.0,Individual,0.0,0.0,0.26110005,0,Moderate,Approve with Monitoring
+15000.0, 36 months,13.49,508.96,C,C2,6 years,RENT,72000.0,Verified,debt_consolidation,8.83,0.0,670.0,674.0,14.0,1.0,5836.0,24.6,43.0,Individual,2.0,0.0,0.26676786,0,Moderate,Approve with Monitoring
+5600.0, 36 months,13.49,190.02,C,C2,2 years,MORTGAGE,40000.0,Source Verified,debt_consolidation,17.4,0.0,675.0,679.0,8.0,0.0,3084.0,33.5,10.0,Individual,2.0,0.0,0.22625308,0,Moderate,Approve with Monitoring
+3000.0, 36 months,11.47,98.89,B,B5,10+ years,MORTGAGE,60000.0,Verified,home_improvement,19.8,1.0,735.0,739.0,12.0,0.0,7401.0,23.9,25.0,Individual,2.0,0.0,0.41263652,0,Moderate,Approve with Monitoring
+2000.0, 36 months,7.89,62.58,A,A5,10+ years,MORTGAGE,65000.0,Not Verified,home_improvement,18.46,0.0,720.0,724.0,12.0,1.0,9392.0,21.2,26.0,Individual,1.0,1.0,0.3286742,0,Moderate,Approve with Monitoring
+15250.0, 36 months,10.99,499.2,B,B2,NaN,OWN,36716.77,Verified,debt_consolidation,29.23,0.0,700.0,704.0,14.0,0.0,23234.0,38.3,29.0,Individual,0.0,0.0,0.48415747,0,Moderate,Approve with Monitoring
+12000.0, 36 months,9.99,387.15,B,B3,10+ years,RENT,62000.0,Source Verified,debt_consolidation,13.53,0.0,745.0,749.0,6.0,0.0,12085.0,47.8,18.0,Individual,0.0,0.0,0.22408807,0,Moderate,Approve with Monitoring
+7375.0, 36 months,10.16,238.53,B,B1,4 years,RENT,32000.0,Not Verified,debt_consolidation,10.73,0.0,710.0,714.0,9.0,0.0,1710.0,24.4,12.0,Individual,0.0,0.0,0.27708542,0,Moderate,Approve with Monitoring
+8500.0, 36 months,12.12,282.81,B,B3,7 years,MORTGAGE,43000.0,Source Verified,credit_card,28.66,0.0,695.0,699.0,18.0,0.0,21248.0,93.2,28.0,Individual,2.0,0.0,0.47516945,0,Moderate,Approve with Monitoring
+35000.0, 36 months,11.47,1153.67,B,B5,NaN,MORTGAGE,87968.0,Verified,small_business,3.23,0.0,735.0,739.0,17.0,0.0,6229.0,7.6,33.0,Individual,6.0,0.0,0.38204178,0,Moderate,Approve with Monitoring
+6000.0, 36 months,11.53,197.95,B,B5,< 1 year,RENT,98300.0,Verified,credit_card,20.22,0.0,685.0,689.0,13.0,0.0,24272.0,66.7,20.0,Individual,0.0,0.0,0.34418383,0,Moderate,Approve with Monitoring
+8825.0, 36 months,9.99,284.72,B,B3,2 years,RENT,76000.0,Verified,debt_consolidation,19.52,0.0,690.0,694.0,9.0,0.0,19486.0,97.9,20.0,Individual,0.0,0.0,0.23032528,0,Moderate,Approve with Monitoring
+11200.0, 36 months,15.61,391.61,D,D1,NaN,RENT,61300.0,Verified,debt_consolidation,19.24,0.0,675.0,679.0,11.0,1.0,13370.0,39.3,15.0,Individual,0.0,1.0,0.26964578,0,Moderate,Approve with Monitoring
+16000.0, 36 months,13.49,542.89,C,C2,10+ years,MORTGAGE,70000.0,Not Verified,credit_card,25.29,0.0,680.0,684.0,14.0,0.0,17388.0,39.8,29.0,Individual,2.0,0.0,0.4485973,0,Moderate,Approve with Monitoring
+12000.0, 36 months,12.39,400.82,C,C1,3 years,RENT,42000.0,Not Verified,credit_card,5.63,1.0,665.0,669.0,16.0,0.0,6694.0,63.2,37.0,Individual,0.0,0.0,0.32937485,0,Moderate,Approve with Monitoring
+30000.0, 60 months,19.42,785.17,E,E3,10+ years,MORTGAGE,100000.0,Verified,debt_consolidation,6.58,0.0,710.0,714.0,6.0,0.0,13363.0,89.1,11.0,Individual,,0.0,0.17238088,0,Low,Approve
+7000.0, 36 months,11.99,232.47,B,B5,10+ years,MORTGAGE,40000.0,Source Verified,debt_consolidation,17.82,0.0,685.0,689.0,7.0,0.0,9194.0,80.6,21.0,Individual,1.0,0.0,0.24595857,0,Moderate,Approve with Monitoring
+4125.0, 36 months,17.77,148.66,D,D1,1 year,RENT,33280.0,Not Verified,debt_consolidation,20.63,0.0,670.0,674.0,6.0,0.0,14359.0,65.9,11.0,Individual,0.0,0.0,0.28486794,0,Moderate,Approve with Monitoring
+23000.0, 36 months,12.79,772.64,C,C1,< 1 year,RENT,60000.0,Verified,debt_consolidation,15.06,1.0,665.0,669.0,6.0,0.0,5875.0,39.4,21.0,Individual,0.0,0.0,0.42630717,0,Moderate,Approve with Monitoring
+14825.0, 36 months,13.11,500.3,B,B4,7 years,MORTGAGE,55000.0,Not Verified,debt_consolidation,17.63,0.0,665.0,669.0,9.0,1.0,6108.0,84.8,30.0,Individual,2.0,1.0,0.31464824,0,Moderate,Approve with Monitoring
+24000.0, 60 months,15.99,583.51,C,C5,< 1 year,MORTGAGE,80000.0,Source Verified,home_improvement,7.7,0.0,700.0,704.0,10.0,0.0,20384.0,81.2,15.0,Individual,3.0,0.0,0.29770964,0,Moderate,Approve with Monitoring
+5000.0, 36 months,12.69,167.73,C,C2,5 years,RENT,49000.0,Source Verified,debt_consolidation,18.05,0.0,700.0,704.0,6.0,0.0,7245.0,42.4,10.0,Individual,0.0,0.0,0.27628973,0,Moderate,Approve with Monitoring
+35000.0, 36 months,14.09,1197.75,B,B5,10+ years,RENT,185000.0,Source Verified,debt_consolidation,4.39,0.0,695.0,699.0,7.0,2.0,22820.0,42.3,16.0,Individual,2.0,0.0,0.2989535,0,Moderate,Approve with Monitoring
+8000.0, 36 months,7.89,250.29,A,A5,9 years,MORTGAGE,54000.0,Not Verified,credit_card,36.4,0.0,820.0,824.0,21.0,0.0,15093.0,13.4,39.0,Individual,5.0,0.0,0.28944847,0,Moderate,Approve with Monitoring
+19075.0, 60 months,20.99,515.94,E,E4,2 years,RENT,47817.0,Source Verified,debt_consolidation,22.82,0.0,670.0,674.0,15.0,0.0,19677.0,80.6,22.0,Individual,0.0,0.0,0.37930796,0,Moderate,Approve with Monitoring
+3000.0, 60 months,11.86,66.53,B,B5,10+ years,RENT,40084.8,Verified,vacation,6.95,0.0,700.0,704.0,10.0,0.0,1233.0,39.8,33.0,Individual,,0.0,0.34774786,0,Moderate,Approve with Monitoring
+25000.0, 60 months,13.11,570.24,B,B4,10+ years,MORTGAGE,85000.0,Verified,debt_consolidation,14.37,0.0,735.0,739.0,11.0,0.0,15009.0,40.6,25.0,Individual,2.0,0.0,0.29077265,0,Moderate,Approve with Monitoring
+20400.0, 60 months,20.0,540.48,D,D4,8 years,MORTGAGE,58000.0,Not Verified,debt_consolidation,14.38,0.0,665.0,669.0,7.0,1.0,18815.0,65.6,11.0,Individual,0.0,1.0,0.39736035,0,Moderate,Approve with Monitoring
+11125.0, 60 months,22.15,308.21,E,E5,6 years,MORTGAGE,42280.0,Source Verified,credit_card,29.86,2.0,670.0,674.0,30.0,1.0,8689.0,34.8,45.0,Individual,0.0,1.0,0.4848436,0,Moderate,Approve with Monitoring
+11125.0, 36 months,8.99,353.73,B,B1,9 years,MORTGAGE,150000.0,Source Verified,debt_consolidation,12.9,1.0,665.0,669.0,7.0,0.0,6267.0,99.5,14.0,Individual,4.0,0.0,0.15256377,0,Low,Approve
+20000.0, 60 months,17.1,498.13,C,C5,< 1 year,MORTGAGE,70000.0,Source Verified,credit_card,11.25,0.0,675.0,679.0,7.0,0.0,24475.0,97.1,14.0,Individual,2.0,0.0,0.25481024,0,Moderate,Approve with Monitoring
+17000.0, 36 months,9.49,544.49,B,B2,2 years,RENT,58000.0,Source Verified,debt_consolidation,22.35,0.0,675.0,679.0,16.0,1.0,16942.0,43.4,42.0,Individual,2.0,0.0,0.41273883,0,Moderate,Approve with Monitoring
+10000.0, 36 months,10.99,327.34,B,B3,8 years,RENT,48500.0,Not Verified,credit_card,29.18,2.0,670.0,674.0,12.0,0.0,9005.0,43.7,34.0,Individual,0.0,0.0,0.29879487,0,Moderate,Approve with Monitoring
+5000.0, 36 months,8.18,157.1,B,B1,10+ years,MORTGAGE,24000.0,Source Verified,debt_consolidation,23.2,0.0,670.0,674.0,14.0,1.0,5733.0,31.8,35.0,Individual,1.0,1.0,0.3004317,0,Moderate,Approve with Monitoring
+15250.0, 60 months,25.83,455.06,G,G2,10+ years,MORTGAGE,45000.0,Verified,debt_consolidation,24.8,0.0,675.0,679.0,9.0,0.0,22639.0,69.9,19.0,Individual,1.0,0.0,0.5528709,1,High,Manual Credit Review
+3000.0, 36 months,8.39,94.55,A,A5,10+ years,MORTGAGE,104000.0,Not Verified,debt_consolidation,20.07,0.0,700.0,704.0,9.0,0.0,31269.0,71.6,38.0,Individual,3.0,0.0,0.17236143,0,Low,Approve
+12000.0, 36 months,8.39,378.2,B,B1,3 years,RENT,40000.0,Not Verified,debt_consolidation,16.56,0.0,690.0,694.0,5.0,1.0,7942.0,65.0,12.0,Individual,0.0,0.0,0.21007262,0,Moderate,Approve with Monitoring
+10000.0, 36 months,9.17,318.79,B,B2,5 years,MORTGAGE,90000.0,Not Verified,debt_consolidation,16.22,2.0,675.0,679.0,14.0,0.0,35994.0,73.8,46.0,Individual,3.0,0.0,0.20011428,0,Moderate,Approve with Monitoring
+2800.0, 36 months,13.67,95.25,B,B5,1 year,MORTGAGE,115735.0,Not Verified,home_improvement,13.61,1.0,665.0,669.0,13.0,0.0,32072.0,82.9,23.0,Individual,3.0,0.0,0.3237518,0,Moderate,Approve with Monitoring
+15000.0, 36 months,12.49,501.74,B,B4,4 years,RENT,66000.0,Source Verified,debt_consolidation,24.56,0.0,665.0,669.0,11.0,0.0,20756.0,65.5,31.0,Individual,5.0,0.0,0.45280817,0,Moderate,Approve with Monitoring
+8000.0, 36 months,11.49,263.78,B,B5,10+ years,MORTGAGE,112000.0,Source Verified,other,12.2,0.0,660.0,664.0,7.0,0.0,6480.0,64.8,19.0,Individual,4.0,0.0,0.15280458,0,Low,Approve
+8000.0, 36 months,14.16,274.05,C,C2,3 years,MORTGAGE,69000.0,Verified,home_improvement,3.29,0.0,680.0,684.0,5.0,0.0,6408.0,74.5,9.0,Individual,1.0,0.0,0.22364302,0,Moderate,Approve with Monitoring
+26000.0, 36 months,6.24,793.81,A,A2,10+ years,MORTGAGE,71000.0,Not Verified,debt_consolidation,12.05,0.0,750.0,754.0,8.0,0.0,14389.0,22.7,11.0,Individual,2.0,0.0,0.20299812,0,Moderate,Approve with Monitoring
+20000.0, 36 months,14.65,689.89,C,C5,2 years,RENT,80000.0,Source Verified,debt_consolidation,20.01,1.0,665.0,669.0,19.0,0.0,20226.0,95.0,39.0,Individual,3.0,0.0,0.3368097,0,Moderate,Approve with Monitoring
+8850.0, 36 months,18.25,321.06,D,D3,10+ years,MORTGAGE,65000.0,Source Verified,debt_consolidation,10.47,0.0,685.0,689.0,10.0,1.0,9054.0,55.2,14.0,Individual,2.0,1.0,0.14508224,0,Low,Approve
+15000.0, 36 months,9.17,478.19,B,B2,9 years,RENT,73000.0,Not Verified,credit_card,2.86,0.0,735.0,739.0,16.0,0.0,8737.0,19.8,18.0,Individual,0.0,0.0,0.22526076,0,Moderate,Approve with Monitoring
+35000.0, 36 months,11.53,1154.66,B,B5,6 years,MORTGAGE,99807.0,Verified,debt_consolidation,16.2,0.0,715.0,719.0,14.0,0.0,25311.0,58.2,45.0,Individual,6.0,0.0,0.28847826,0,Moderate,Approve with Monitoring
+7000.0, 36 months,13.33,236.98,C,C3,NaN,RENT,20500.0,Verified,debt_consolidation,3.81,0.0,665.0,669.0,4.0,1.0,1864.0,22.5,10.0,Individual,1.0,1.0,0.27058622,0,Moderate,Approve with Monitoring
+9600.0, 36 months,17.99,347.02,D,D2,10+ years,MORTGAGE,125000.0,Verified,other,32.73,0.0,660.0,664.0,15.0,0.0,61235.0,97.0,24.0,Individual,2.0,0.0,0.24677028,0,Moderate,Approve with Monitoring
+30000.0, 60 months,21.97,828.06,E,E4,10+ years,MORTGAGE,68800.0,Verified,debt_consolidation,22.41,0.0,685.0,689.0,11.0,0.0,27601.0,86.8,15.0,Individual,1.0,0.0,0.34936476,0,Moderate,Approve with Monitoring
+9600.0, 36 months,6.92,296.07,A,A4,7 years,MORTGAGE,56000.0,Source Verified,credit_card,22.52,1.0,670.0,674.0,7.0,0.0,15042.0,24.1,26.0,Individual,0.0,0.0,0.4026414,0,Moderate,Approve with Monitoring
+23775.0, 60 months,28.72,750.62,F,F1,5 years,MORTGAGE,437000.0,Verified,debt_consolidation,17.45,0.0,715.0,719.0,36.0,0.0,87130.0,46.4,60.0,Individual,3.0,0.0,0.29040256,0,Moderate,Approve with Monitoring
+35000.0, 36 months,8.18,1099.69,B,B1,10+ years,MORTGAGE,105000.0,Source Verified,credit_card,8.65,0.0,740.0,744.0,7.0,0.0,36764.0,60.9,12.0,Individual,1.0,0.0,0.3195536,0,Moderate,Approve with Monitoring
+12800.0, 60 months,13.67,295.65,B,B5,NaN,RENT,53000.0,Verified,credit_card,29.03,0.0,695.0,699.0,8.0,0.0,20918.0,73.1,12.0,Individual,0.0,0.0,0.31145117,0,Moderate,Approve with Monitoring
+10000.0, 36 months,6.99,308.73,A,A2,< 1 year,OWN,89000.0,Not Verified,debt_consolidation,22.52,0.0,770.0,774.0,33.0,0.0,23648.0,18.2,55.0,Individual,5.0,0.0,0.23754516,0,Moderate,Approve with Monitoring
+6000.0, 36 months,9.75,192.9,B,B3,2 years,RENT,72000.0,Source Verified,debt_consolidation,23.0,0.0,675.0,679.0,28.0,0.0,22562.0,42.4,49.0,Individual,0.0,0.0,0.41195846,0,Moderate,Approve with Monitoring
+15000.0, 36 months,5.32,451.73,A,A1,2 years,MORTGAGE,85000.0,Not Verified,debt_consolidation,20.39,0.0,760.0,764.0,13.0,0.0,20122.0,28.5,17.0,Individual,3.0,0.0,0.14205429,0,Low,Approve
+17250.0, 36 months,10.16,557.91,B,B1,3 years,MORTGAGE,43000.0,Verified,debt_consolidation,19.09,0.0,730.0,734.0,9.0,0.0,27250.0,83.3,16.0,Individual,1.0,0.0,0.3435592,0,Moderate,Approve with Monitoring
+10000.0, 36 months,12.29,333.53,C,C1,3 years,RENT,35000.0,Source Verified,debt_consolidation,22.27,0.0,670.0,674.0,14.0,0.0,8943.0,44.3,27.0,Individual,0.0,0.0,0.45651045,0,Moderate,Approve with Monitoring
+10000.0, 36 months,13.59,339.79,C,C2,10+ years,MORTGAGE,100000.0,Source Verified,debt_consolidation,12.61,1.0,690.0,694.0,13.0,1.0,5738.0,37.3,22.0,Individual,1.0,1.0,0.1851509,0,Low,Approve
+2000.0, 36 months,9.17,63.76,B,B2,10+ years,OWN,104000.0,Verified,debt_consolidation,19.29,0.0,695.0,699.0,10.0,0.0,37339.0,68.1,23.0,Individual,2.0,0.0,0.26280847,0,Moderate,Approve with Monitoring
+4725.0, 36 months,7.89,147.83,A,A5,8 years,MORTGAGE,50000.0,Not Verified,credit_card,16.99,0.0,715.0,719.0,7.0,0.0,4730.0,20.3,12.0,Individual,1.0,0.0,0.32815188,0,Moderate,Approve with Monitoring
+8000.0, 36 months,10.75,260.97,B,B4,2 years,MORTGAGE,65000.0,Not Verified,debt_consolidation,6.61,0.0,710.0,714.0,7.0,0.0,5619.0,41.0,7.0,Individual,2.0,0.0,0.21280439,0,Moderate,Approve with Monitoring
+30000.0, 60 months,9.17,625.23,B,B2,9 years,MORTGAGE,90000.0,Source Verified,debt_consolidation,25.91,1.0,710.0,714.0,11.0,0.0,19377.0,64.8,25.0,Individual,3.0,0.0,0.32165623,0,Moderate,Approve with Monitoring
+10000.0, 60 months,20.99,270.48,E,E4,7 years,RENT,75000.0,Verified,small_business,22.46,0.0,665.0,669.0,11.0,0.0,7967.0,36.7,30.0,Individual,2.0,0.0,0.26300237,0,Moderate,Approve with Monitoring
+7500.0, 36 months,10.99,245.51,B,B3,10+ years,MORTGAGE,120000.0,Not Verified,other,8.52,0.0,715.0,719.0,10.0,0.0,15707.0,95.8,34.0,Individual,,0.0,0.19972421,0,Low,Approve
+5000.0, 36 months,9.99,161.32,B,B3,< 1 year,RENT,17000.0,Verified,debt_consolidation,34.82,0.0,665.0,669.0,5.0,1.0,4148.0,45.6,17.0,Individual,0.0,1.0,0.41462973,0,Moderate,Approve with Monitoring
+16000.0, 36 months,20.2,596.25,D,D5,< 1 year,RENT,105000.0,Not Verified,credit_card,9.62,0.0,665.0,669.0,11.0,0.0,30263.0,86.8,21.0,Individual,0.0,0.0,0.18051681,0,Low,Approve
+7000.0, 36 months,17.99,253.04,D,D2,3 years,MORTGAGE,140000.0,Not Verified,debt_consolidation,4.29,0.0,735.0,739.0,13.0,0.0,152.0,0.3,23.0,Individual,1.0,0.0,0.27016065,0,Moderate,Approve with Monitoring
+13300.0, 36 months,11.14,436.31,B,B2,10+ years,MORTGAGE,90000.0,Source Verified,debt_consolidation,14.6,2.0,700.0,704.0,4.0,0.0,0.0,,14.0,Individual,3.0,0.0,0.2384477,0,Moderate,Approve with Monitoring
+18000.0, 36 months,5.32,542.07,A,A1,10+ years,MORTGAGE,110000.0,Not Verified,home_improvement,14.29,1.0,770.0,774.0,28.0,0.0,17023.0,14.6,55.0,Individual,5.0,0.0,0.2102044,0,Moderate,Approve with Monitoring
+28000.0, 36 months,13.68,952.63,C,C1,1 year,MORTGAGE,84000.0,Verified,debt_consolidation,15.61,0.0,725.0,729.0,13.0,2.0,16705.0,27.6,23.0,Individual,0.0,0.0,0.29626083,0,Moderate,Approve with Monitoring
+33250.0, 60 months,16.99,826.17,D,D1,8 years,RENT,33000.0,Not Verified,debt_consolidation,49.38,0.0,660.0,664.0,12.0,0.0,22565.0,86.1,23.0,Joint App,0.0,0.0,0.5539882,1,High,Manual Credit Review
+8000.0, 36 months,14.99,277.29,C,C5,3 years,RENT,22360.0,Not Verified,debt_consolidation,17.28,0.0,680.0,684.0,8.0,0.0,9117.0,52.1,8.0,Individual,0.0,0.0,0.31922907,0,Moderate,Approve with Monitoring
+4000.0, 36 months,12.79,134.38,C,C1,8 years,OWN,41000.0,Verified,vacation,27.14,0.0,715.0,719.0,4.0,0.0,1747.0,69.9,6.0,Individual,0.0,0.0,0.46516576,0,Moderate,Approve with Monitoring
+10000.0, 60 months,12.29,223.92,C,C1,4 years,RENT,50000.0,Not Verified,home_improvement,0.6,0.0,745.0,749.0,7.0,0.0,100.0,0.8,9.0,Individual,0.0,0.0,0.239251,0,Moderate,Approve with Monitoring
+12125.0, 36 months,15.31,422.17,C,C4,10+ years,MORTGAGE,48233.38,Source Verified,debt_consolidation,22.12,1.0,680.0,684.0,11.0,1.0,8357.0,50.0,35.0,Individual,2.0,1.0,0.31445134,0,Moderate,Approve with Monitoring
+12000.0, 36 months,8.18,377.04,B,B1,10+ years,MORTGAGE,147380.0,Source Verified,home_improvement,12.16,0.0,695.0,699.0,7.0,0.0,11618.0,96.0,15.0,Individual,4.0,0.0,0.14272869,0,Low,Approve
+19750.0, 60 months,16.29,483.34,C,C4,4 years,RENT,45000.0,Verified,credit_card,24.0,0.0,700.0,704.0,13.0,0.0,13738.0,43.8,19.0,Individual,0.0,0.0,0.42545155,0,Moderate,Approve with Monitoring
+12000.0, 36 months,7.99,375.99,A,A4,3 years,RENT,110000.0,Not Verified,debt_consolidation,13.33,0.0,700.0,704.0,19.0,0.0,18773.0,26.3,38.0,Individual,3.0,0.0,0.27885824,0,Moderate,Approve with Monitoring
+33800.0, 36 months,7.12,1045.51,A,A3,2 years,MORTGAGE,110000.0,Verified,credit_card,19.09,0.0,700.0,704.0,16.0,1.0,34215.0,57.7,20.0,Individual,2.0,1.0,0.26552504,0,Moderate,Approve with Monitoring
+4300.0, 36 months,16.2,151.61,C,C4,10+ years,MORTGAGE,100000.0,Verified,credit_card,30.31,0.0,695.0,699.0,16.0,0.0,12970.0,38.5,36.0,Individual,1.0,0.0,0.2051627,0,Moderate,Approve with Monitoring
+15000.0, 60 months,14.49,352.85,C,C4,< 1 year,RENT,90000.0,Source Verified,debt_consolidation,19.55,1.0,665.0,669.0,9.0,0.0,17735.0,68.0,28.0,Individual,3.0,0.0,0.235028,0,Moderate,Approve with Monitoring
+8400.0, 36 months,7.89,262.8,A,A5,9 years,MORTGAGE,72000.0,Source Verified,home_improvement,21.78,0.0,710.0,714.0,7.0,0.0,1914.0,31.9,17.0,Individual,3.0,0.0,0.19636336,0,Low,Approve
+15000.0, 36 months,11.49,494.57,B,B5,10+ years,RENT,50000.0,Verified,debt_consolidation,18.92,7.0,675.0,679.0,10.0,0.0,4105.0,45.1,22.0,Individual,0.0,0.0,0.30785877,0,Moderate,Approve with Monitoring
+23300.0, 60 months,17.86,589.9,D,D5,9 years,MORTGAGE,134640.0,Verified,debt_consolidation,30.69,0.0,660.0,664.0,18.0,0.0,38226.0,84.9,28.0,Individual,2.0,0.0,0.39436734,0,Moderate,Approve with Monitoring
+8000.0, 36 months,11.53,263.93,B,B5,2 years,RENT,30000.0,Not Verified,major_purchase,19.28,0.0,730.0,734.0,4.0,0.0,4789.0,76.0,4.0,Individual,0.0,0.0,0.2949434,0,Moderate,Approve with Monitoring
+13600.0, 36 months,17.57,488.75,D,D4,< 1 year,RENT,34000.0,Verified,debt_consolidation,13.33,0.0,680.0,684.0,5.0,0.0,10894.0,57.3,5.0,Individual,0.0,0.0,0.37080348,0,Moderate,Approve with Monitoring
+15475.0, 60 months,16.49,380.37,D,D3,1 year,MORTGAGE,37000.0,Source Verified,debt_consolidation,10.61,0.0,660.0,664.0,7.0,1.0,10263.0,84.1,11.0,Individual,0.0,1.0,0.24364105,0,Moderate,Approve with Monitoring
+11000.0, 36 months,9.44,352.06,B,B1,4 years,RENT,77000.0,Not Verified,credit_card,14.62,0.0,700.0,704.0,6.0,0.0,9271.0,39.0,19.0,Individual,0.0,0.0,0.24745962,0,Moderate,Approve with Monitoring
+6000.0, 36 months,15.61,209.79,C,C3,3 years,RENT,85000.0,Not Verified,debt_consolidation,20.78,3.0,680.0,684.0,8.0,0.0,13498.0,93.1,34.0,Individual,4.0,0.0,0.206763,0,Moderate,Approve with Monitoring
+11600.0, 36 months,19.99,431.04,E,E1,1 year,RENT,85000.0,Verified,debt_consolidation,8.79,0.0,660.0,664.0,6.0,0.0,7885.0,78.8,7.0,Individual,0.0,0.0,0.16792257,0,Low,Approve
+10000.0, 36 months,9.99,322.63,B,B3,8 years,MORTGAGE,58000.0,Not Verified,credit_card,17.48,0.0,675.0,679.0,7.0,1.0,7945.0,39.0,15.0,Individual,1.0,1.0,0.21830434,0,Moderate,Approve with Monitoring
+8000.0, 36 months,15.05,277.52,C,C4,7 years,RENT,25000.0,Not Verified,credit_card,22.13,0.0,720.0,724.0,5.0,0.0,10021.0,62.6,9.0,Joint App,0.0,0.0,0.26925004,0,Moderate,Approve with Monitoring
+30000.0, 60 months,13.49,690.15,C,C2,2 years,RENT,115000.0,Source Verified,credit_card,16.14,0.0,680.0,684.0,10.0,0.0,38175.0,56.6,18.0,Individual,3.0,0.0,0.20238669,0,Moderate,Approve with Monitoring
+6025.0, 36 months,13.99,205.9,C,C3,10+ years,MORTGAGE,41756.0,Verified,moving,25.06,0.0,705.0,709.0,9.0,0.0,3286.0,23.6,28.0,Individual,1.0,0.0,0.28730524,0,Moderate,Approve with Monitoring
+12925.0, 36 months,14.99,447.99,C,C5,NaN,OWN,36000.0,Source Verified,debt_consolidation,21.83,0.0,670.0,674.0,14.0,1.0,2242.0,14.2,37.0,Individual,1.0,0.0,0.4242025,0,Moderate,Approve with Monitoring
+36625.0, 60 months,18.25,935.03,D,D3,9 years,MORTGAGE,72000.0,Not Verified,debt_consolidation,13.5,0.0,765.0,769.0,14.0,0.0,2867.0,9.8,31.0,Joint App,2.0,0.0,0.3350091,0,Moderate,Approve with Monitoring
+8000.0, 36 months,9.44,256.04,B,B1,7 years,MORTGAGE,111000.0,Not Verified,house,18.02,0.0,725.0,729.0,17.0,0.0,7128.0,16.8,44.0,Individual,3.0,0.0,0.15418498,0,Low,Approve
+9000.0, 36 months,13.67,306.16,C,C3,2 years,RENT,25000.0,Source Verified,debt_consolidation,39.22,0.0,660.0,664.0,6.0,1.0,5551.0,74.0,37.0,Individual,3.0,1.0,0.47321743,0,Moderate,Approve with Monitoring
+19800.0, 36 months,10.16,640.38,B,B1,4 years,RENT,86400.0,Not Verified,debt_consolidation,4.18,0.0,730.0,734.0,11.0,0.0,16112.0,36.7,20.0,Individual,0.0,0.0,0.2151937,0,Moderate,Approve with Monitoring
+5000.0, 36 months,13.98,170.84,C,C3,10+ years,MORTGAGE,65000.0,Not Verified,debt_consolidation,27.44,0.0,695.0,699.0,17.0,0.0,28548.0,91.2,33.0,Individual,5.0,0.0,0.39556634,0,Moderate,Approve with Monitoring
+15000.0, 60 months,14.46,352.62,C,C4,< 1 year,RENT,129800.0,Not Verified,credit_card,4.74,1.0,660.0,664.0,7.0,0.0,14076.0,38.2,11.0,Individual,1.0,0.0,0.13835913,0,Low,Approve
+19000.0, 60 months,20.49,508.58,E,E1,10+ years,MORTGAGE,140000.0,Verified,debt_consolidation,11.82,0.0,680.0,684.0,5.0,0.0,8035.0,73.7,6.0,Individual,0.0,0.0,0.2087659,0,Moderate,Approve with Monitoring
+24500.0, 36 months,16.29,864.86,D,D2,10+ years,RENT,95000.0,Verified,debt_consolidation,30.5,0.0,685.0,689.0,11.0,0.0,24717.0,89.2,15.0,Individual,0.0,0.0,0.2577051,0,Moderate,Approve with Monitoring
+9600.0, 36 months,14.65,331.15,C,C5,8 years,MORTGAGE,32000.0,Source Verified,debt_consolidation,11.64,0.0,665.0,669.0,15.0,0.0,7135.0,71.3,26.0,Individual,3.0,0.0,0.41186905,0,Moderate,Approve with Monitoring
+10000.0, 36 months,17.99,361.48,D,D2,8 years,MORTGAGE,60000.0,Verified,credit_card,23.6,0.0,715.0,719.0,9.0,0.0,10171.0,67.8,30.0,Individual,5.0,0.0,0.26986903,0,Moderate,Approve with Monitoring
+9600.0, 36 months,9.16,306.0,B,B2,10+ years,RENT,77000.0,Source Verified,debt_consolidation,15.68,0.0,660.0,664.0,14.0,0.0,20826.0,46.8,24.0,Individual,1.0,0.0,0.27898714,0,Moderate,Approve with Monitoring
+10000.0, 60 months,16.99,248.48,D,D3,2 years,MORTGAGE,52000.0,Not Verified,home_improvement,11.82,0.0,690.0,694.0,8.0,0.0,2919.0,53.1,28.0,Individual,6.0,0.0,0.21408135,0,Moderate,Approve with Monitoring
+28000.0, 36 months,12.49,936.57,B,B5,5 years,RENT,65300.0,Verified,debt_consolidation,13.95,0.0,695.0,699.0,13.0,0.0,22390.0,46.3,26.0,Individual,1.0,0.0,0.45550117,0,Moderate,Approve with Monitoring
+9600.0, 36 months,11.99,318.82,C,C1,9 years,MORTGAGE,50000.0,Not Verified,debt_consolidation,31.57,1.0,665.0,669.0,11.0,0.0,12549.0,73.8,33.0,Individual,2.0,0.0,0.43873078,0,Moderate,Approve with Monitoring
+5000.0, 36 months,10.42,162.33,B,B3,4 years,MORTGAGE,60000.0,Not Verified,vacation,17.78,0.0,660.0,664.0,10.0,1.0,5629.0,43.6,30.0,Individual,0.0,1.0,0.23935932,0,Moderate,Approve with Monitoring
+5500.0, 36 months,10.99,180.04,B,B2,2 years,RENT,19000.0,Not Verified,credit_card,21.1,0.0,680.0,684.0,15.0,0.0,9459.0,35.7,18.0,Individual,0.0,0.0,0.4236653,0,Moderate,Approve with Monitoring
+20000.0, 36 months,6.39,611.98,A,A2,10+ years,MORTGAGE,274000.0,Source Verified,debt_consolidation,18.1,0.0,715.0,719.0,20.0,0.0,252811.0,73.2,38.0,Individual,3.0,0.0,0.1774669,0,Low,Approve
+28000.0, 36 months,6.03,852.2,A,A1,3 years,MORTGAGE,80000.0,Verified,debt_consolidation,21.31,0.0,775.0,779.0,21.0,0.0,99187.0,17.9,44.0,Individual,4.0,0.0,0.1962629,0,Low,Approve
+30000.0, 60 months,13.99,697.9,C,C3,3 years,OWN,155000.0,Verified,debt_consolidation,18.16,4.0,660.0,664.0,12.0,0.0,12264.0,36.0,32.0,Individual,0.0,0.0,0.36480367,0,Moderate,Approve with Monitoring
+16000.0, 36 months,12.12,532.35,B,B3,6 years,MORTGAGE,106000.0,Verified,debt_consolidation,10.39,0.0,700.0,704.0,10.0,2.0,17658.0,49.9,30.0,Individual,4.0,1.0,0.18517771,0,Low,Approve
+19400.0, 36 months,6.24,592.3,A,A2,10+ years,MORTGAGE,86564.0,Not Verified,credit_card,17.12,0.0,770.0,774.0,5.0,0.0,19406.0,58.8,21.0,Individual,2.0,0.0,0.09269846,0,Low,Approve
+10000.0, 36 months,8.24,314.48,B,B1,3 years,MORTGAGE,70000.0,Not Verified,debt_consolidation,16.72,0.0,740.0,744.0,7.0,1.0,4522.0,18.9,10.0,Individual,0.0,1.0,0.2510268,0,Moderate,Approve with Monitoring
+6400.0, 36 months,14.27,219.58,C,C2,4 years,MORTGAGE,48500.0,Source Verified,debt_consolidation,22.74,0.0,680.0,684.0,20.0,0.0,10780.0,93.0,32.0,Individual,,0.0,0.36490905,0,Moderate,Approve with Monitoring
+7000.0, 36 months,17.09,249.89,D,D1,4 years,MORTGAGE,50000.0,Source Verified,debt_consolidation,13.03,1.0,695.0,699.0,11.0,0.0,1532.0,22.5,15.0,Individual,1.0,0.0,0.25740996,0,Moderate,Approve with Monitoring
+20000.0, 60 months,24.08,576.29,F,F2,10+ years,MORTGAGE,73000.0,Source Verified,home_improvement,16.93,0.0,670.0,674.0,9.0,0.0,19168.0,86.3,36.0,Individual,4.0,0.0,0.3987856,0,Moderate,Approve with Monitoring
+23175.0, 60 months,18.49,594.69,D,D5,< 1 year,RENT,61000.0,Verified,debt_consolidation,22.21,1.0,670.0,674.0,17.0,0.0,36291.0,77.7,49.0,Individual,0.0,0.0,0.40401912,0,Moderate,Approve with Monitoring
+10000.0, 36 months,7.51,311.1,A,A4,10+ years,RENT,38000.0,Not Verified,debt_consolidation,8.59,0.0,755.0,759.0,9.0,0.0,8007.0,20.9,28.0,Individual,,0.0,0.19008406,0,Low,Approve
+27575.0, 60 months,23.63,787.37,F,F3,1 year,OWN,82143.0,Verified,credit_card,21.2,1.0,685.0,689.0,15.0,0.0,15700.0,90.8,34.0,Individual,4.0,0.0,0.2993411,0,Moderate,Approve with Monitoring
+20000.0, 60 months,14.08,466.2,C,C3,7 years,MORTGAGE,75000.0,Not Verified,debt_consolidation,10.38,0.0,785.0,789.0,6.0,0.0,61.0,0.5,9.0,Individual,0.0,0.0,0.29026607,0,Moderate,Approve with Monitoring
+10000.0, 36 months,6.68,307.31,A,A3,10+ years,MORTGAGE,99000.0,Not Verified,debt_consolidation,15.08,0.0,690.0,694.0,14.0,0.0,7067.0,79.6,19.0,Individual,2.0,0.0,0.15886867,0,Low,Approve
+9000.0, 36 months,11.99,298.89,B,B3,3 years,RENT,42000.0,Source Verified,debt_consolidation,19.17,0.0,675.0,679.0,6.0,1.0,2726.0,33.7,20.0,Individual,0.0,1.0,0.2604392,0,Moderate,Approve with Monitoring
+20000.0, 36 months,16.55,708.59,D,D2,7 years,OWN,125000.0,Verified,debt_consolidation,12.33,2.0,665.0,669.0,18.0,1.0,44533.0,79.0,53.0,Individual,5.0,1.0,0.2395669,0,Moderate,Approve with Monitoring
+14000.0, 36 months,7.26,433.95,A,A4,< 1 year,OWN,50000.0,Not Verified,credit_card,8.76,0.0,695.0,699.0,8.0,0.0,12810.0,55.2,16.0,Individual,0.0,0.0,0.24881876,0,Moderate,Approve with Monitoring
+6000.0, 36 months,10.15,194.03,B,B2,4 years,MORTGAGE,52000.0,Not Verified,debt_consolidation,12.14,0.0,705.0,709.0,10.0,0.0,11417.0,41.4,26.0,Individual,1.0,0.0,0.3054889,0,Moderate,Approve with Monitoring
+17975.0, 60 months,18.92,465.5,D,D4,5 years,MORTGAGE,100000.0,Source Verified,home_improvement,1.75,0.0,675.0,679.0,9.0,1.0,2097.0,40.3,14.0,Individual,1.0,0.0,0.33462426,0,Moderate,Approve with Monitoring
+18900.0, 36 months,14.31,648.81,C,C4,NaN,MORTGAGE,45000.0,Verified,debt_consolidation,23.73,0.0,680.0,684.0,9.0,0.0,14361.0,38.5,17.0,Individual,1.0,0.0,0.37034214,0,Moderate,Approve with Monitoring
+16000.0, 60 months,15.61,385.79,D,D1,7 years,OWN,40000.0,Not Verified,debt_consolidation,5.37,0.0,660.0,664.0,7.0,0.0,7152.0,73.7,14.0,Individual,3.0,0.0,0.35129762,0,Moderate,Approve with Monitoring
+16000.0, 36 months,5.32,481.84,A,A1,10+ years,MORTGAGE,65000.0,Source Verified,debt_consolidation,17.66,0.0,715.0,719.0,22.0,1.0,22839.0,43.0,36.0,Individual,2.0,0.0,0.37421304,0,Moderate,Approve with Monitoring
+30000.0, 36 months,9.67,963.38,B,B1,10+ years,MORTGAGE,135000.0,Source Verified,credit_card,9.01,0.0,755.0,759.0,8.0,0.0,22858.0,59.4,22.0,Individual,8.0,0.0,0.23996373,0,Moderate,Approve with Monitoring
+5500.0, 36 months,12.12,183.0,B,B3,7 years,MORTGAGE,51000.0,Not Verified,debt_consolidation,24.14,0.0,685.0,689.0,10.0,0.0,15310.0,69.0,33.0,Individual,5.0,0.0,0.30546063,0,Moderate,Approve with Monitoring
+20000.0, 60 months,12.62,451.19,C,C1,10+ years,MORTGAGE,97000.0,Source Verified,debt_consolidation,18.38,0.0,720.0,724.0,11.0,0.0,19717.0,51.5,26.0,Individual,3.0,0.0,0.26289943,0,Moderate,Approve with Monitoring
+17000.0, 60 months,15.61,409.9,C,C5,10+ years,OWN,58000.0,Source Verified,debt_consolidation,19.7,0.0,690.0,694.0,7.0,0.0,18891.0,93.5,25.0,Individual,5.0,0.0,0.27151763,0,Moderate,Approve with Monitoring
+15000.0, 36 months,8.38,472.68,B,B1,7 years,MORTGAGE,140000.0,Source Verified,debt_consolidation,32.34,0.0,675.0,679.0,13.0,0.0,18811.0,50.1,33.0,Individual,6.0,0.0,0.32322526,0,Moderate,Approve with Monitoring
+8000.0, 36 months,7.89,250.29,A,A5,1 year,RENT,59669.0,Verified,debt_consolidation,15.71,0.0,700.0,704.0,3.0,0.0,825.0,25.8,16.0,Individual,3.0,0.0,0.25185624,0,Moderate,Approve with Monitoring
+18800.0, 36 months,12.12,625.51,B,B3,< 1 year,MORTGAGE,53000.0,Not Verified,credit_card,19.09,0.0,670.0,674.0,11.0,0.0,12681.0,48.2,17.0,Individual,2.0,0.0,0.31886968,0,Moderate,Approve with Monitoring
+30000.0, 36 months,10.99,982.02,B,B4,NaN,MORTGAGE,89435.16,Verified,credit_card,8.28,0.0,675.0,679.0,6.0,0.0,21743.0,95.4,16.0,Individual,4.0,0.0,0.20850049,0,Moderate,Approve with Monitoring
+10400.0, 60 months,14.65,245.51,C,C5,10+ years,OWN,73000.0,Source Verified,other,22.44,0.0,685.0,689.0,12.0,0.0,2295.0,23.2,107.0,Individual,0.0,0.0,0.34906578,0,Moderate,Approve with Monitoring
+6400.0, 36 months,14.07,218.96,C,C3,10+ years,MORTGAGE,70000.0,Source Verified,small_business,2.07,0.0,665.0,669.0,10.0,3.0,1444.0,19.3,19.0,Individual,0.0,1.0,0.29569352,0,Moderate,Approve with Monitoring
+13300.0, 60 months,22.99,374.86,F,F1,10+ years,OWN,40000.0,Source Verified,credit_card,15.54,0.0,680.0,684.0,10.0,1.0,7393.0,58.7,19.0,Individual,0.0,1.0,0.45480993,0,Moderate,Approve with Monitoring
+14000.0, 36 months,14.98,485.18,C,C3,< 1 year,OWN,120000.0,Source Verified,debt_consolidation,14.29,0.0,665.0,669.0,8.0,0.0,5770.0,52.9,15.0,Individual,0.0,0.0,0.19298765,0,Low,Approve
+25000.0, 36 months,11.67,826.43,B,B4,7 years,RENT,82956.5,Source Verified,credit_card,20.22,0.0,700.0,704.0,15.0,0.0,34496.0,57.7,31.0,Individual,2.0,0.0,0.37425357,0,Moderate,Approve with Monitoring
+23000.0, 60 months,24.08,662.74,F,F2,7 years,MORTGAGE,80000.0,Verified,home_improvement,13.54,0.0,705.0,709.0,8.0,0.0,2598.0,7.4,18.0,Individual,5.0,0.0,0.4625214,0,Moderate,Approve with Monitoring
+23075.0, 36 months,6.03,702.3,A,A1,10+ years,OWN,95000.0,Not Verified,debt_consolidation,0.44,0.0,825.0,829.0,9.0,0.0,1043.0,1.2,17.0,Individual,1.0,0.0,0.09008195,0,Low,Approve
+20475.0, 60 months,16.55,503.92,D,D2,7 years,RENT,42700.0,Source Verified,credit_card,32.43,0.0,685.0,689.0,20.0,0.0,28076.0,81.9,31.0,Individual,0.0,0.0,0.54943025,1,High,Manual Credit Review
+24000.0, 60 months,11.53,528.19,B,B5,10+ years,MORTGAGE,90000.0,Source Verified,debt_consolidation,11.22,0.0,675.0,679.0,6.0,0.0,19511.0,99.0,22.0,Individual,4.0,0.0,0.29695612,0,Moderate,Approve with Monitoring
+4800.0, 36 months,14.85,166.05,C,C5,4 years,MORTGAGE,49000.0,Verified,other,36.44,0.0,690.0,694.0,10.0,2.0,12307.0,69.9,18.0,Individual,3.0,1.0,0.51563346,1,High,Manual Credit Review
+18000.0, 36 months,7.49,559.83,A,A4,3 years,MORTGAGE,83000.0,Source Verified,debt_consolidation,7.93,0.0,700.0,704.0,17.0,0.0,13186.0,24.1,28.0,Individual,6.0,0.0,0.23157807,0,Moderate,Approve with Monitoring
+24000.0, 36 months,5.32,722.76,A,A1,4 years,MORTGAGE,160000.0,Not Verified,debt_consolidation,13.58,0.0,705.0,709.0,13.0,0.0,36709.0,53.7,23.0,Individual,2.0,0.0,0.25777328,0,Moderate,Approve with Monitoring
+15000.0, 36 months,8.39,472.75,B,B1,8 years,MORTGAGE,66000.0,Not Verified,debt_consolidation,12.91,0.0,695.0,699.0,11.0,0.0,16132.0,33.2,27.0,Individual,3.0,0.0,0.32797772,0,Moderate,Approve with Monitoring
+4000.0, 36 months,7.46,124.36,A,A4,< 1 year,RENT,90000.0,Not Verified,credit_card,13.76,0.0,710.0,714.0,15.0,0.0,10431.0,44.2,25.0,Individual,0.0,0.0,0.35115653,0,Moderate,Approve with Monitoring
+20000.0, 36 months,7.89,625.72,A,A5,5 years,RENT,100000.0,Not Verified,credit_card,8.76,0.0,705.0,709.0,11.0,0.0,7724.0,34.0,17.0,Individual,0.0,0.0,0.23485002,0,Moderate,Approve with Monitoring
+6000.0, 36 months,10.0,193.61,B,B2,4 years,RENT,85000.0,Verified,credit_card,7.28,0.0,700.0,704.0,7.0,0.0,8601.0,82.1,16.0,Individual,,0.0,0.1645604,0,Low,Approve
+20000.0, 36 months,11.14,656.11,B,B2,5 years,MORTGAGE,50000.0,Verified,debt_consolidation,4.75,0.0,705.0,709.0,11.0,0.0,6390.0,26.1,17.0,Individual,3.0,0.0,0.5250665,1,High,Manual Credit Review
+19200.0, 60 months,21.45,524.3,D,D5,10+ years,RENT,72500.0,Source Verified,debt_consolidation,20.06,1.0,660.0,664.0,11.0,0.0,9384.0,46.2,32.0,Individual,0.0,0.0,0.4329952,0,Moderate,Approve with Monitoring
+10450.0, 60 months,21.18,283.77,E,E3,4 years,RENT,67000.0,Source Verified,debt_consolidation,5.27,0.0,660.0,664.0,12.0,1.0,8168.0,51.0,38.0,Individual,4.0,1.0,0.15537219,0,Low,Approve
+16000.0, 36 months,12.29,533.65,C,C1,10+ years,MORTGAGE,78000.0,Not Verified,home_improvement,38.53,1.0,665.0,669.0,17.0,0.0,15246.0,67.2,36.0,Individual,1.0,0.0,0.4817422,0,Moderate,Approve with Monitoring
+20000.0, 36 months,9.99,645.25,B,B3,8 years,RENT,165000.0,Source Verified,moving,14.2,0.0,745.0,749.0,24.0,0.0,25883.0,49.8,40.0,Individual,0.0,0.0,0.27355257,0,Moderate,Approve with Monitoring
+11000.0, 60 months,23.99,316.39,F,F3,5 years,RENT,53000.0,Verified,debt_consolidation,11.25,0.0,665.0,669.0,6.0,0.0,4783.0,64.6,7.0,Individual,0.0,0.0,0.36214375,0,Moderate,Approve with Monitoring
+40000.0, 60 months,16.02,973.15,C,C5,10+ years,MORTGAGE,124000.0,Verified,debt_consolidation,14.62,0.0,710.0,714.0,16.0,0.0,23913.0,40.1,50.0,Individual,7.0,0.0,0.37181997,0,Moderate,Approve with Monitoring
+30000.0, 36 months,16.29,1059.02,D,D2,10+ years,RENT,90000.0,Verified,debt_consolidation,18.72,1.0,685.0,689.0,12.0,0.0,13824.0,43.6,20.0,Individual,2.0,0.0,0.3243741,0,Moderate,Approve with Monitoring
+24000.0, 60 months,11.44,527.1,B,B4,2 years,MORTGAGE,90000.0,Source Verified,debt_consolidation,17.77,0.0,750.0,754.0,10.0,0.0,35472.0,63.0,20.0,Individual,1.0,0.0,0.2591704,0,Moderate,Approve with Monitoring
+20000.0, 60 months,17.57,503.21,D,D2,NaN,MORTGAGE,50000.0,Verified,credit_card,31.35,0.0,700.0,704.0,13.0,1.0,19668.0,52.6,22.0,Individual,2.0,1.0,0.4996602,0,Moderate,Approve with Monitoring
+16000.0, 36 months,7.24,495.8,A,A3,10+ years,MORTGAGE,87000.0,Source Verified,credit_card,29.67,0.0,760.0,764.0,13.0,0.0,20431.0,42.0,31.0,Individual,2.0,0.0,0.1779021,0,Low,Approve
+12000.0, 36 months,8.24,377.37,B,B1,4 years,MORTGAGE,84000.0,Source Verified,debt_consolidation,25.76,0.0,675.0,679.0,13.0,1.0,11211.0,48.5,23.0,Individual,2.0,1.0,0.3553869,0,Moderate,Approve with Monitoring
+35000.0, 36 months,10.15,1131.82,B,B2,10+ years,MORTGAGE,300000.0,Verified,debt_consolidation,23.32,0.0,735.0,739.0,20.0,0.0,56862.0,88.0,62.0,Individual,5.0,0.0,0.2474696,0,Moderate,Approve with Monitoring
+30000.0, 36 months,15.05,1040.7,C,C4,4 years,MORTGAGE,92000.0,Verified,debt_consolidation,24.64,1.0,660.0,664.0,14.0,0.0,39635.0,71.9,21.0,Individual,2.0,0.0,0.31890061,0,Moderate,Approve with Monitoring
+4600.0, 60 months,16.69,113.56,E,E3,4 years,RENT,20000.0,Verified,small_business,7.92,0.0,690.0,694.0,2.0,0.0,2210.0,96.1,6.0,Individual,,0.0,0.2917282,0,Moderate,Approve with Monitoring
+7200.0, 36 months,13.67,244.93,B,B5,1 year,MORTGAGE,115000.0,Source Verified,debt_consolidation,13.15,2.0,720.0,724.0,6.0,0.0,2186.0,20.2,23.0,Individual,3.0,0.0,0.13002943,0,Low,Approve
+11875.0, 36 months,26.3,480.36,E,E5,5 years,MORTGAGE,45000.0,Source Verified,debt_consolidation,24.19,4.0,670.0,674.0,12.0,0.0,11721.0,47.6,26.0,Individual,5.0,0.0,0.44917092,0,Moderate,Approve with Monitoring
+8000.0, 36 months,12.53,267.74,B,B5,1 year,OWN,39996.0,Not Verified,debt_consolidation,13.62,0.0,715.0,719.0,6.0,0.0,29140.0,64.0,15.0,Individual,,0.0,0.25289473,0,Moderate,Approve with Monitoring
+4800.0, 36 months,7.35,148.98,A,A4,6 years,OWN,50000.0,Not Verified,debt_consolidation,14.83,1.0,690.0,694.0,28.0,0.0,5592.0,15.5,65.0,Individual,0.0,0.0,0.34556866,0,Moderate,Approve with Monitoring
+7200.0, 36 months,6.46,220.55,A,A1,NaN,OWN,89000.0,Source Verified,credit_card,3.59,0.0,725.0,729.0,29.0,1.0,16098.0,8.2,33.0,Individual,0.0,1.0,0.27759966,0,Moderate,Approve with Monitoring
+28000.0, 60 months,13.99,651.37,C,C3,6 years,RENT,100000.0,Source Verified,credit_card,26.86,0.0,680.0,684.0,30.0,0.0,35142.0,40.3,58.0,Individual,0.0,0.0,0.40681493,0,Moderate,Approve with Monitoring
+24000.0, 36 months,9.17,765.1,B,B2,< 1 year,RENT,100000.0,Source Verified,debt_consolidation,12.83,0.0,710.0,714.0,9.0,0.0,13214.0,44.0,13.0,Individual,0.0,0.0,0.22095904,0,Moderate,Approve with Monitoring
+13500.0, 60 months,15.61,325.51,D,D1,10+ years,RENT,60000.0,Source Verified,other,13.5,0.0,690.0,694.0,6.0,0.0,10012.0,49.3,14.0,Individual,0.0,0.0,0.21444677,0,Moderate,Approve with Monitoring
+3500.0, 36 months,6.03,106.53,A,A1,10+ years,MORTGAGE,83000.0,Verified,car,2.31,0.0,745.0,749.0,6.0,0.0,3092.0,13.4,28.0,Individual,,0.0,0.040591504,0,Low,Approve
+6000.0, 36 months,13.99,205.04,C,C3,2 years,RENT,38000.0,Source Verified,credit_card,15.08,0.0,680.0,684.0,17.0,0.0,5719.0,85.4,28.0,Individual,0.0,0.0,0.3059456,0,Moderate,Approve with Monitoring
+7200.0, 36 months,10.49,233.99,B,B3,10+ years,RENT,65000.0,Source Verified,debt_consolidation,1.42,2.0,685.0,689.0,10.0,0.0,2739.0,33.8,23.0,Individual,1.0,0.0,0.15103966,0,Low,Approve
+15000.0, 36 months,11.83,497.01,B,B3,< 1 year,RENT,63223.32,Not Verified,debt_consolidation,15.87,0.0,730.0,734.0,15.0,0.0,26127.0,44.8,39.0,Individual,,0.0,0.39192542,0,Moderate,Approve with Monitoring
+35000.0, 36 months,14.65,1207.3,C,C5,< 1 year,MORTGAGE,140000.0,Source Verified,credit_card,18.43,0.0,715.0,719.0,13.0,0.0,46660.0,73.6,22.0,Individual,4.0,0.0,0.21581659,0,Moderate,Approve with Monitoring
+16000.0, 60 months,21.49,437.28,D,D5,10+ years,MORTGAGE,127000.0,Source Verified,home_improvement,27.35,1.0,695.0,699.0,13.0,0.0,16691.0,40.9,29.0,Individual,5.0,0.0,0.2981266,0,Moderate,Approve with Monitoring
+32625.0, 60 months,14.49,767.44,C,C4,10+ years,MORTGAGE,68000.0,Verified,credit_card,26.05,0.0,700.0,704.0,19.0,0.0,40035.0,46.7,37.0,Individual,2.0,0.0,0.40974745,0,Moderate,Approve with Monitoring
+7600.0, 36 months,13.11,256.48,B,B4,10+ years,RENT,71800.0,Source Verified,debt_consolidation,5.85,0.0,680.0,684.0,8.0,0.0,12464.0,69.2,15.0,Individual,0.0,0.0,0.1913687,0,Low,Approve
+15000.0, 36 months,6.83,462.0,A,A3,5 years,MORTGAGE,62000.0,Source Verified,credit_card,20.63,0.0,795.0,799.0,15.0,0.0,8991.0,19.3,23.0,Individual,1.0,0.0,0.2567546,0,Moderate,Approve with Monitoring
+28000.0, 36 months,6.39,856.78,A,A2,< 1 year,MORTGAGE,200000.0,Verified,home_improvement,17.78,0.0,670.0,674.0,16.0,2.0,38305.0,63.0,36.0,Individual,4.0,0.0,0.21285209,0,Moderate,Approve with Monitoring
+15000.0, 60 months,7.89,303.36,A,A5,9 years,MORTGAGE,74000.0,Not Verified,debt_consolidation,23.81,0.0,725.0,729.0,13.0,1.0,8951.0,44.5,21.0,Individual,1.0,1.0,0.2442357,0,Moderate,Approve with Monitoring
+10000.0, 36 months,12.29,333.53,C,C1,3 years,RENT,60000.0,Not Verified,credit_card,7.84,0.0,660.0,664.0,7.0,0.0,15736.0,67.0,7.0,Individual,0.0,0.0,0.23181398,0,Moderate,Approve with Monitoring
+9650.0, 36 months,16.29,340.65,D,D2,3 years,RENT,60000.0,Source Verified,credit_card,12.08,0.0,670.0,674.0,8.0,0.0,5196.0,83.8,11.0,Individual,0.0,0.0,0.24188434,0,Moderate,Approve with Monitoring
+21600.0, 60 months,23.28,612.4,F,F2,9 years,RENT,70000.0,Verified,debt_consolidation,24.72,0.0,665.0,669.0,11.0,0.0,30567.0,89.5,25.0,Individual,3.0,0.0,0.51788205,1,High,Manual Credit Review
+20000.0, 36 months,14.65,689.89,C,C5,3 years,RENT,90000.0,Verified,debt_consolidation,17.57,2.0,690.0,694.0,17.0,0.0,7495.0,34.5,32.0,Individual,0.0,0.0,0.35222474,0,Moderate,Approve with Monitoring
+7000.0, 36 months,9.16,223.12,B,B2,10+ years,MORTGAGE,98000.0,Not Verified,home_improvement,9.63,2.0,675.0,679.0,6.0,0.0,2453.0,66.3,23.0,Individual,2.0,0.0,0.1278952,0,Low,Approve
+1500.0, 36 months,13.68,51.04,C,C1,NaN,OWN,25320.0,Source Verified,debt_consolidation,24.17,0.0,715.0,719.0,6.0,0.0,13800.0,77.1,7.0,Individual,0.0,0.0,0.29284263,0,Moderate,Approve with Monitoring
+10800.0, 36 months,12.99,363.85,C,C1,10+ years,MORTGAGE,68000.0,Verified,debt_consolidation,5.24,0.0,695.0,699.0,19.0,3.0,9968.0,50.9,51.0,Individual,5.0,0.0,0.23560895,0,Moderate,Approve with Monitoring
+12000.0, 36 months,10.64,390.83,B,B2,3 years,MORTGAGE,46000.0,Source Verified,debt_consolidation,12.44,3.0,680.0,684.0,7.0,0.0,7918.0,67.1,42.0,Individual,1.0,0.0,0.24596396,0,Moderate,Approve with Monitoring
+20000.0, 60 months,21.48,546.49,E,E4,4 years,OWN,80000.0,Source Verified,debt_consolidation,18.71,0.0,690.0,694.0,11.0,0.0,17801.0,75.7,18.0,Individual,0.0,0.0,0.30790538,0,Moderate,Approve with Monitoring
+14000.0, 36 months,14.33,480.74,C,C1,10+ years,MORTGAGE,75000.0,Verified,debt_consolidation,21.07,0.0,685.0,689.0,17.0,0.0,8372.0,44.1,53.0,Individual,3.0,0.0,0.37327293,0,Moderate,Approve with Monitoring
+4100.0, 36 months,9.17,130.71,B,B2,10+ years,RENT,50000.0,Not Verified,credit_card,34.71,0.0,700.0,704.0,11.0,0.0,10882.0,57.6,29.0,Individual,0.0,0.0,0.45276207,0,Moderate,Approve with Monitoring
+18900.0, 36 months,15.99,664.38,C,C5,10+ years,MORTGAGE,43000.0,Verified,debt_consolidation,26.9,0.0,660.0,664.0,11.0,2.0,14015.0,70.1,17.0,Joint App,2.0,1.0,0.5376761,1,High,Manual Credit Review
+11000.0, 36 months,10.64,358.26,B,B2,10+ years,MORTGAGE,50371.14,Not Verified,debt_consolidation,14.48,1.0,675.0,679.0,7.0,0.0,6579.0,82.2,18.0,Individual,1.0,0.0,0.23416479,0,Moderate,Approve with Monitoring
+10000.0, 36 months,7.12,309.32,A,A3,10+ years,RENT,45000.0,Not Verified,debt_consolidation,14.0,0.0,740.0,744.0,8.0,0.0,4382.0,41.3,12.0,Individual,0.0,0.0,0.23783115,0,Moderate,Approve with Monitoring
+10000.0, 36 months,5.32,301.15,A,A1,5 years,RENT,59000.0,Not Verified,credit_card,20.24,1.0,740.0,744.0,17.0,0.0,15465.0,17.2,26.0,Individual,0.0,0.0,0.42923972,0,Moderate,Approve with Monitoring
+17800.0, 36 months,5.32,536.05,A,A1,6 years,RENT,81000.0,Not Verified,house,20.77,0.0,755.0,759.0,15.0,0.0,13496.0,26.4,24.0,Individual,0.0,0.0,0.17907725,0,Low,Approve
+11500.0, 36 months,12.12,382.63,B,B3,10+ years,MORTGAGE,33000.0,Verified,debt_consolidation,27.75,0.0,700.0,704.0,9.0,0.0,25523.0,90.8,17.0,Individual,1.0,0.0,0.52288395,1,High,Manual Credit Review
+3900.0, 36 months,26.24,157.64,E,E5,10+ years,RENT,34000.0,Verified,other,11.33,0.0,675.0,679.0,6.0,0.0,2854.0,48.4,12.0,Individual,0.0,0.0,0.3144939,0,Moderate,Approve with Monitoring
+7200.0, 36 months,7.51,224.0,A,A3,10+ years,MORTGAGE,47000.0,Source Verified,debt_consolidation,19.74,0.0,725.0,729.0,12.0,0.0,16106.0,83.5,32.0,Individual,,0.0,0.3291984,0,Moderate,Approve with Monitoring
+11000.0, 36 months,11.99,365.31,B,B3,6 years,MORTGAGE,91800.0,Verified,debt_consolidation,18.84,0.0,700.0,704.0,14.0,0.0,27086.0,53.1,18.0,Individual,1.0,0.0,0.2676044,0,Moderate,Approve with Monitoring
+3600.0, 36 months,17.57,129.38,D,D4,1 year,RENT,30000.0,Not Verified,other,17.76,0.0,705.0,709.0,14.0,1.0,2329.0,17.9,23.0,Individual,0.0,1.0,0.3058647,0,Moderate,Approve with Monitoring
+3200.0, 36 months,12.49,107.04,B,B4,6 years,MORTGAGE,48000.0,Verified,vacation,9.15,0.0,755.0,759.0,7.0,0.0,3850.0,40.1,12.0,Individual,2.0,0.0,0.28980592,0,Moderate,Approve with Monitoring
+19425.0, 36 months,12.12,646.31,B,B3,< 1 year,OWN,44000.0,Verified,credit_card,32.73,0.0,695.0,699.0,15.0,0.0,28003.0,56.9,22.0,Individual,0.0,0.0,0.45516238,0,Moderate,Approve with Monitoring
+13200.0, 36 months,11.49,435.23,B,B5,1 year,RENT,85000.0,Source Verified,debt_consolidation,12.54,0.0,705.0,709.0,12.0,0.0,5183.0,33.9,33.0,Individual,0.0,0.0,0.30905917,0,Moderate,Approve with Monitoring
+30000.0, 36 months,18.06,1085.48,D,D2,10+ years,MORTGAGE,89000.0,Verified,debt_consolidation,21.2,2.0,670.0,674.0,9.0,0.0,4057.0,36.2,25.0,Individual,2.0,0.0,0.3033032,0,Moderate,Approve with Monitoring
+6000.0, 36 months,13.05,202.31,B,B5,9 years,RENT,38000.0,Not Verified,debt_consolidation,11.68,0.0,705.0,709.0,9.0,0.0,18163.0,39.5,21.0,Individual,1.0,0.0,0.27104542,0,Moderate,Approve with Monitoring
+25200.0, 60 months,19.99,667.51,D,D5,10+ years,MORTGAGE,83000.0,Source Verified,debt_consolidation,16.27,0.0,705.0,709.0,11.0,0.0,4197.0,26.7,36.0,Individual,3.0,0.0,0.48002118,0,Moderate,Approve with Monitoring
+13000.0, 36 months,8.18,408.46,B,B1,1 year,OWN,145000.0,Source Verified,debt_consolidation,3.67,0.0,660.0,664.0,10.0,2.0,6836.0,18.6,22.0,Individual,4.0,0.0,0.20711772,0,Moderate,Approve with Monitoring
+14400.0, 60 months,12.59,324.63,C,C2,1 year,MORTGAGE,42000.0,Not Verified,debt_consolidation,14.66,2.0,685.0,689.0,4.0,0.0,3138.0,55.1,27.0,Individual,3.0,0.0,0.28241846,0,Moderate,Approve with Monitoring
+15000.0, 36 months,10.75,489.31,B,B4,10+ years,RENT,60000.0,Source Verified,credit_card,14.58,1.0,690.0,694.0,11.0,1.0,13048.0,48.0,14.0,Individual,0.0,0.0,0.27931195,0,Moderate,Approve with Monitoring
+30000.0, 60 months,19.97,794.32,D,D5,10+ years,MORTGAGE,155000.0,Source Verified,debt_consolidation,15.31,0.0,660.0,664.0,16.0,0.0,28718.0,81.6,37.0,Individual,0.0,0.0,0.26842576,0,Moderate,Approve with Monitoring
+20000.0, 36 months,7.69,623.88,A,A4,8 years,RENT,86000.0,Verified,credit_card,4.19,0.0,680.0,684.0,5.0,1.0,13087.0,47.9,14.0,Individual,0.0,1.0,0.20213182,0,Moderate,Approve with Monitoring
+6000.0, 36 months,13.98,205.01,C,C3,10+ years,OWN,45000.0,Not Verified,debt_consolidation,16.59,0.0,665.0,669.0,28.0,1.0,9406.0,31.2,48.0,Individual,1.0,0.0,0.24136484,0,Moderate,Approve with Monitoring
+15100.0, 36 months,10.91,493.72,B,B4,2 years,MORTGAGE,39000.0,Source Verified,debt_consolidation,23.51,0.0,705.0,709.0,6.0,0.0,12963.0,61.4,14.0,Individual,2.0,0.0,0.3572408,0,Moderate,Approve with Monitoring
+12000.0, 36 months,12.12,399.26,B,B3,10+ years,MORTGAGE,85000.0,Not Verified,debt_consolidation,22.2,0.0,665.0,669.0,18.0,0.0,39286.0,66.7,34.0,Individual,4.0,0.0,0.29637206,0,Moderate,Approve with Monitoring
+3000.0, 36 months,12.12,99.82,B,B3,10+ years,RENT,62000.0,Not Verified,debt_consolidation,25.72,0.0,700.0,704.0,10.0,0.0,29888.0,59.7,19.0,Individual,0.0,0.0,0.31548482,0,Moderate,Approve with Monitoring
+28000.0, 36 months,7.9,876.13,A,A4,3 years,MORTGAGE,90000.0,Source Verified,debt_consolidation,10.07,0.0,715.0,719.0,11.0,0.0,24970.0,47.6,27.0,Individual,2.0,0.0,0.20391724,0,Moderate,Approve with Monitoring
+20000.0, 36 months,13.57,679.37,C,C3,4 years,RENT,100000.0,Source Verified,home_improvement,18.81,0.0,745.0,749.0,19.0,0.0,0.0,0.0,34.0,Individual,,0.0,0.42238772,0,Moderate,Approve with Monitoring
+18000.0, 60 months,8.39,368.35,B,B1,10+ years,RENT,135000.0,Not Verified,debt_consolidation,6.0,0.0,710.0,714.0,8.0,0.0,14194.0,26.8,17.0,Individual,0.0,0.0,0.12602383,0,Low,Approve
+15000.0, 36 months,11.53,494.86,B,B5,2 years,RENT,85000.0,Source Verified,debt_consolidation,16.79,1.0,665.0,669.0,9.0,1.0,16408.0,67.0,20.0,Individual,0.0,1.0,0.30026117,0,Moderate,Approve with Monitoring
+24250.0, 36 months,7.9,758.79,A,A4,5 years,MORTGAGE,100000.0,Verified,debt_consolidation,32.11,0.0,700.0,704.0,23.0,0.0,84369.0,64.2,42.0,Individual,3.0,0.0,0.30776268,0,Moderate,Approve with Monitoring
+34000.0, 60 months,12.29,761.31,C,C1,10+ years,MORTGAGE,76000.0,Verified,credit_card,21.69,0.0,695.0,699.0,9.0,0.0,52110.0,73.1,14.0,Individual,1.0,0.0,0.32636946,0,Moderate,Approve with Monitoring
+3200.0, 36 months,13.59,108.74,C,C2,10+ years,MORTGAGE,120000.0,Not Verified,major_purchase,28.75,1.0,665.0,669.0,23.0,0.0,61569.0,78.1,39.0,Individual,5.0,0.0,0.28303775,0,Moderate,Approve with Monitoring
+9600.0, 36 months,11.44,316.3,B,B4,< 1 year,RENT,90000.0,Source Verified,other,18.28,0.0,675.0,679.0,19.0,0.0,25071.0,44.0,30.0,Individual,0.0,0.0,0.26179403,0,Moderate,Approve with Monitoring
+7200.0, 36 months,19.99,267.55,D,D4,10+ years,OWN,35000.0,Not Verified,debt_consolidation,14.78,0.0,700.0,704.0,4.0,0.0,10407.0,56.0,15.0,Individual,0.0,0.0,0.3413268,0,Moderate,Approve with Monitoring
+18000.0, 36 months,10.99,589.22,B,B4,5 years,RENT,60172.0,Source Verified,other,10.94,0.0,705.0,709.0,5.0,0.0,11262.0,92.3,7.0,Individual,0.0,0.0,0.24137807,0,Moderate,Approve with Monitoring
+20400.0, 36 months,9.99,658.16,B,B3,8 years,MORTGAGE,55000.0,Not Verified,debt_consolidation,24.48,1.0,700.0,704.0,8.0,0.0,7710.0,55.1,18.0,Individual,1.0,0.0,0.29116017,0,Moderate,Approve with Monitoring
+6900.0, 36 months,19.97,256.33,D,D5,1 year,RENT,33000.0,Not Verified,debt_consolidation,13.67,0.0,665.0,669.0,6.0,0.0,11477.0,94.1,18.0,Individual,4.0,0.0,0.26632214,0,Moderate,Approve with Monitoring
+25000.0, 60 months,16.24,611.15,C,C5,10+ years,OWN,200000.0,Source Verified,credit_card,8.57,0.0,695.0,699.0,20.0,1.0,13828.0,38.4,45.0,Individual,2.0,1.0,0.22918722,0,Moderate,Approve with Monitoring
+4000.0, 36 months,7.24,123.95,A,A3,3 years,RENT,115000.0,Source Verified,debt_consolidation,7.34,0.0,705.0,709.0,5.0,0.0,15523.0,56.9,13.0,Individual,0.0,0.0,0.13057709,0,Low,Approve
+35000.0, 60 months,10.42,750.91,B,B3,9 years,MORTGAGE,110410.0,Verified,debt_consolidation,17.57,0.0,745.0,749.0,11.0,0.0,60898.0,55.0,30.0,Individual,3.0,0.0,0.25836173,0,Moderate,Approve with Monitoring
+30000.0, 36 months,17.27,1073.62,D,D2,4 years,RENT,112000.0,Verified,debt_consolidation,25.03,0.0,680.0,684.0,12.0,0.0,14813.0,36.2,16.0,Individual,0.0,0.0,0.31899375,0,Moderate,Approve with Monitoring
+20000.0, 60 months,13.99,465.27,C,C3,6 years,MORTGAGE,80000.0,Source Verified,credit_card,3.18,2.0,675.0,679.0,7.0,0.0,9601.0,74.4,19.0,Individual,3.0,0.0,0.37579727,0,Moderate,Approve with Monitoring
+10000.0, 36 months,7.34,310.33,A,A4,10+ years,OWN,130000.0,Not Verified,credit_card,10.6,0.0,780.0,784.0,11.0,0.0,55095.0,1.5,32.0,Joint App,1.0,0.0,0.096695565,0,Low,Approve
+6000.0, 36 months,10.15,194.03,B,B2,2 years,RENT,105000.0,Not Verified,debt_consolidation,7.39,3.0,675.0,679.0,4.0,0.0,1089.0,26.6,12.0,Individual,0.0,0.0,0.21412756,0,Moderate,Approve with Monitoring
+12000.0, 36 months,8.18,377.04,B,B1,4 years,RENT,55000.0,Not Verified,credit_card,11.86,0.0,665.0,669.0,6.0,0.0,11537.0,86.7,8.0,Individual,0.0,0.0,0.2755604,0,Moderate,Approve with Monitoring
+20200.0, 60 months,18.54,518.9,E,E1,10+ years,MORTGAGE,55000.0,Source Verified,debt_consolidation,31.75,0.0,700.0,704.0,12.0,0.0,30581.0,51.1,24.0,Individual,1.0,0.0,0.47952825,0,Moderate,Approve with Monitoring
+9450.0, 36 months,7.12,292.31,A,A3,1 year,RENT,51000.0,Not Verified,credit_card,12.8,1.0,670.0,674.0,8.0,0.0,12235.0,37.5,15.0,Individual,0.0,0.0,0.314246,0,Moderate,Approve with Monitoring
+40000.0, 36 months,6.99,1234.91,A,A2,5 years,MORTGAGE,235000.0,Source Verified,debt_consolidation,11.17,0.0,720.0,724.0,21.0,0.0,43050.0,42.4,59.0,Individual,4.0,0.0,0.22255532,0,Moderate,Approve with Monitoring
+10800.0, 36 months,6.89,332.93,A,A3,10+ years,MORTGAGE,32000.0,Not Verified,credit_card,18.08,0.0,750.0,754.0,9.0,0.0,14017.0,54.5,12.0,Individual,1.0,0.0,0.3745927,0,Moderate,Approve with Monitoring
+5000.0, 36 months,12.05,166.2,C,C1,10+ years,OWN,102000.0,Not Verified,small_business,33.93,3.0,700.0,704.0,9.0,0.0,176610.0,26.0,21.0,Individual,3.0,0.0,0.2614927,0,Moderate,Approve with Monitoring
+4000.0, 36 months,12.39,133.61,C,C1,10+ years,RENT,43700.0,Not Verified,medical,24.21,0.0,705.0,709.0,8.0,0.0,695.0,19.9,20.0,Individual,0.0,0.0,0.29247206,0,Moderate,Approve with Monitoring
+12000.0, 60 months,15.61,289.34,D,D1,8 years,OWN,38000.0,Source Verified,credit_card,29.25,0.0,700.0,704.0,13.0,0.0,7890.0,32.6,21.0,Individual,0.0,0.0,0.38373697,0,Moderate,Approve with Monitoring
+30000.0, 60 months,16.99,745.42,D,D3,10+ years,RENT,150000.0,Verified,debt_consolidation,7.23,0.0,660.0,664.0,5.0,1.0,12213.0,81.4,9.0,Individual,0.0,1.0,0.26933283,0,Moderate,Approve with Monitoring
+7200.0, 36 months,16.77,255.88,D,D2,9 years,OWN,52000.0,Not Verified,credit_card,24.46,1.0,660.0,664.0,13.0,0.0,12376.0,63.1,29.0,Individual,,0.0,0.32277206,0,Moderate,Approve with Monitoring
+18225.0, 36 months,12.12,606.38,B,B3,4 years,RENT,58000.0,Not Verified,credit_card,21.52,0.0,675.0,679.0,17.0,1.0,25364.0,64.1,26.0,Individual,0.0,1.0,0.47446126,0,Moderate,Approve with Monitoring
+10000.0, 36 months,9.99,322.63,B,B3,2 years,RENT,41372.0,Source Verified,credit_card,11.37,0.0,695.0,699.0,11.0,0.0,12639.0,45.8,34.0,Individual,0.0,0.0,0.40233302,0,Moderate,Approve with Monitoring
+15000.0, 36 months,16.0,527.36,E,E2,10+ years,MORTGAGE,70000.0,Verified,debt_consolidation,7.83,0.0,660.0,664.0,16.0,0.0,18503.0,86.5,41.0,Individual,,0.0,0.27257195,0,Moderate,Approve with Monitoring
+9000.0, 36 months,17.86,324.74,D,D5,9 years,RENT,30000.0,Verified,major_purchase,22.04,0.0,660.0,664.0,9.0,0.0,11240.0,90.6,12.0,Individual,0.0,0.0,0.29329753,0,Moderate,Approve with Monitoring
+16000.0, 36 months,10.37,519.06,B,B3,1 year,RENT,64800.0,Source Verified,credit_card,16.02,0.0,730.0,734.0,6.0,0.0,12919.0,50.3,15.0,Individual,,0.0,0.2790119,0,Moderate,Approve with Monitoring
+7600.0, 36 months,10.15,245.77,B,B2,4 years,MORTGAGE,100000.0,Not Verified,credit_card,11.71,0.0,670.0,674.0,10.0,2.0,3040.0,22.9,29.0,Individual,6.0,2.0,0.10516018,0,Low,Approve
+35000.0, 60 months,18.25,893.54,D,D3,7 years,MORTGAGE,115000.0,Verified,major_purchase,13.0,0.0,680.0,684.0,8.0,0.0,17742.0,74.9,16.0,Individual,4.0,0.0,0.21076164,0,Moderate,Approve with Monitoring
+6600.0, 36 months,11.99,219.19,B,B3,3 years,RENT,39600.0,Source Verified,debt_consolidation,16.88,1.0,660.0,664.0,14.0,0.0,6624.0,44.8,27.0,Individual,0.0,0.0,0.35709023,0,Moderate,Approve with Monitoring
+7000.0, 36 months,13.18,236.47,C,C3,NaN,OWN,61000.0,Verified,other,21.09,1.0,660.0,664.0,21.0,0.0,31361.0,79.2,40.0,Individual,2.0,0.0,0.34417316,0,Moderate,Approve with Monitoring
+9600.0, 36 months,13.65,326.48,C,C1,10+ years,MORTGAGE,88000.0,Not Verified,debt_consolidation,16.41,0.0,685.0,689.0,6.0,0.0,3753.0,64.7,18.0,Individual,1.0,0.0,0.20893691,0,Moderate,Approve with Monitoring
+1000.0, 36 months,13.99,34.18,C,C3,2 years,RENT,52000.0,Source Verified,debt_consolidation,23.7,0.0,660.0,664.0,15.0,0.0,8247.0,70.5,23.0,Individual,0.0,0.0,0.47107714,0,Moderate,Approve with Monitoring
+18000.0, 36 months,10.75,587.17,B,B4,9 years,RENT,60000.0,Source Verified,credit_card,19.26,0.0,665.0,669.0,9.0,0.0,17545.0,84.4,18.0,Individual,0.0,0.0,0.25455967,0,Moderate,Approve with Monitoring
+25000.0, 36 months,18.99,916.28,D,D3,8 years,MORTGAGE,72000.0,Source Verified,home_improvement,31.19,1.0,695.0,699.0,16.0,0.0,21936.0,41.6,35.0,Individual,2.0,0.0,0.5046869,1,High,Manual Credit Review
+20800.0, 36 months,6.24,635.05,A,A2,NaN,OWN,97000.0,Verified,credit_card,13.82,0.0,720.0,724.0,8.0,0.0,15955.0,55.6,19.0,Individual,6.0,0.0,0.21892804,0,Moderate,Approve with Monitoring
+7000.0, 36 months,15.31,243.73,C,C2,< 1 year,RENT,27040.0,Verified,credit_card,22.9,0.0,700.0,704.0,6.0,0.0,5803.0,80.6,14.0,Individual,0.0,0.0,0.24152301,0,Moderate,Approve with Monitoring
+19750.0, 60 months,14.09,460.47,B,B5,5 years,MORTGAGE,50000.0,Verified,debt_consolidation,17.42,0.0,735.0,739.0,12.0,0.0,10290.0,32.8,14.0,Individual,2.0,0.0,0.4430965,0,Moderate,Approve with Monitoring
+6000.0, 36 months,13.99,205.04,C,C4,1 year,MORTGAGE,45000.0,Source Verified,debt_consolidation,19.49,0.0,675.0,679.0,15.0,0.0,12378.0,52.9,18.0,Individual,0.0,0.0,0.42767647,0,Moderate,Approve with Monitoring
+4000.0, 36 months,18.25,145.12,E,E1,2 years,MORTGAGE,31000.0,Not Verified,house,19.2,1.0,675.0,679.0,7.0,1.0,1281.0,27.3,9.0,Individual,0.0,0.0,0.2240922,0,Moderate,Approve with Monitoring
+6000.0, 36 months,10.99,196.41,B,B4,1 year,RENT,35000.0,Not Verified,debt_consolidation,16.87,0.0,680.0,684.0,8.0,0.0,5590.0,35.2,20.0,Individual,0.0,0.0,0.22271569,0,Moderate,Approve with Monitoring
+20000.0, 60 months,12.39,448.85,C,C1,10+ years,MORTGAGE,64000.0,Source Verified,debt_consolidation,17.19,0.0,700.0,704.0,12.0,0.0,25798.0,57.5,28.0,Individual,4.0,0.0,0.398777,0,Moderate,Approve with Monitoring
+30000.0, 36 months,14.33,1030.15,C,C2,4 years,MORTGAGE,83000.0,Verified,debt_consolidation,20.0,0.0,700.0,704.0,8.0,0.0,32105.0,83.6,23.0,Individual,4.0,0.0,0.2847286,0,Moderate,Approve with Monitoring
+12000.0, 36 months,9.93,386.82,B,B2,10+ years,MORTGAGE,103000.0,Source Verified,credit_card,15.54,0.0,730.0,734.0,17.0,0.0,22376.0,31.4,25.0,Individual,1.0,0.0,0.29146284,0,Moderate,Approve with Monitoring
+15000.0, 36 months,12.29,500.3,C,C1,4 years,RENT,81000.0,Source Verified,debt_consolidation,22.39,0.0,665.0,669.0,8.0,0.0,8131.0,44.9,8.0,Individual,0.0,0.0,0.3148365,0,Moderate,Approve with Monitoring
+6025.0, 36 months,10.75,196.54,B,B4,10+ years,RENT,60000.0,Verified,debt_consolidation,19.16,1.0,675.0,679.0,11.0,0.0,7685.0,81.8,13.0,Individual,0.0,0.0,0.2531096,0,Moderate,Approve with Monitoring
+8400.0, 36 months,15.31,292.47,C,C5,1 year,RENT,45000.0,Source Verified,debt_consolidation,16.45,0.0,670.0,674.0,7.0,0.0,18760.0,57.7,10.0,Individual,0.0,0.0,0.18907914,0,Low,Approve
+7000.0, 36 months,7.24,216.91,A,A3,6 years,OWN,132000.0,Not Verified,debt_consolidation,15.64,0.0,695.0,699.0,11.0,1.0,6908.0,32.0,25.0,Individual,1.0,0.0,0.15424243,0,Low,Approve
+4900.0, 36 months,7.49,152.4,A,A4,7 years,MORTGAGE,118443.0,Not Verified,home_improvement,15.66,0.0,720.0,724.0,9.0,0.0,24628.0,49.9,24.0,Individual,,0.0,0.19207369,0,Low,Approve
+19000.0, 36 months,10.15,614.42,B,B2,10+ years,MORTGAGE,65000.0,Not Verified,debt_consolidation,7.79,0.0,670.0,674.0,6.0,0.0,11647.0,47.3,19.0,Individual,6.0,0.0,0.24367534,0,Moderate,Approve with Monitoring
+11825.0, 36 months,18.06,427.86,D,D2,7 years,OWN,60000.0,Not Verified,debt_consolidation,29.3,0.0,660.0,664.0,7.0,0.0,8601.0,60.0,10.0,Individual,0.0,0.0,0.33940285,0,Moderate,Approve with Monitoring
+15000.0, 36 months,13.49,508.96,C,C2,8 years,RENT,60000.0,Source Verified,debt_consolidation,9.26,0.0,675.0,679.0,5.0,0.0,3965.0,58.3,9.0,Individual,0.0,0.0,0.38980058,0,Moderate,Approve with Monitoring
+20000.0, 36 months,13.49,678.61,C,C2,3 years,MORTGAGE,50000.0,Not Verified,home_improvement,5.78,3.0,710.0,714.0,11.0,0.0,6390.0,32.3,23.0,Individual,4.0,0.0,0.4519958,0,Moderate,Approve with Monitoring
+35000.0, 60 months,24.5,1017.07,F,F3,10+ years,MORTGAGE,135000.0,Source Verified,debt_consolidation,16.95,1.0,670.0,674.0,14.0,0.0,52050.0,58.6,55.0,Individual,5.0,0.0,0.343247,0,Moderate,Approve with Monitoring
+6500.0, 36 months,11.89,215.57,B,B4,< 1 year,RENT,39520.0,Not Verified,other,8.47,0.0,700.0,704.0,7.0,1.0,7763.0,33.2,7.0,Individual,,0.0,0.28412876,0,Moderate,Approve with Monitoring
+5400.0, 36 months,12.29,180.11,C,C1,NaN,RENT,18000.0,Verified,credit_card,15.8,0.0,705.0,709.0,5.0,0.0,8942.0,81.3,13.0,Individual,0.0,0.0,0.31041673,0,Moderate,Approve with Monitoring
+3000.0, 36 months,10.99,98.21,B,B4,4 years,MORTGAGE,46000.0,Not Verified,home_improvement,13.59,0.0,805.0,809.0,16.0,0.0,3303.0,5.7,29.0,Individual,0.0,0.0,0.22391891,0,Moderate,Approve with Monitoring
+12000.0, 60 months,12.99,272.98,C,C2,1 year,RENT,70000.0,Source Verified,debt_consolidation,12.94,0.0,690.0,694.0,15.0,0.0,14023.0,35.9,19.0,Individual,0.0,0.0,0.26703396,0,Moderate,Approve with Monitoring
+16000.0, 36 months,7.89,500.58,A,A5,1 year,MORTGAGE,110000.0,Not Verified,debt_consolidation,15.78,0.0,715.0,719.0,13.0,0.0,37440.0,57.9,24.0,Individual,6.0,0.0,0.1991343,0,Low,Approve
+6000.0, 36 months,14.08,205.3,C,C3,3 years,OWN,36626.0,Not Verified,debt_consolidation,13.27,0.0,680.0,684.0,8.0,0.0,8622.0,47.6,12.0,Individual,0.0,0.0,0.28529674,0,Moderate,Approve with Monitoring
+28800.0, 60 months,17.57,724.62,D,D2,5 years,MORTGAGE,70000.0,Source Verified,credit_card,15.62,1.0,660.0,664.0,7.0,0.0,17017.0,96.7,14.0,Individual,1.0,0.0,0.33039925,0,Moderate,Approve with Monitoring
+28000.0, 60 months,12.74,633.37,C,C1,9 years,RENT,90000.0,Not Verified,credit_card,13.33,0.0,675.0,679.0,20.0,0.0,31218.0,46.7,43.0,Individual,2.0,0.0,0.47117445,0,Moderate,Approve with Monitoring
+12000.0, 36 months,7.89,375.43,A,A5,1 year,RENT,40000.0,Not Verified,debt_consolidation,20.18,0.0,685.0,689.0,14.0,0.0,12428.0,36.8,19.0,Individual,0.0,0.0,0.44145986,0,Moderate,Approve with Monitoring
+15000.0, 36 months,12.29,500.3,C,C1,10+ years,RENT,75000.0,Not Verified,debt_consolidation,8.08,0.0,660.0,664.0,15.0,0.0,17868.0,38.7,30.0,Individual,0.0,0.0,0.31751093,0,Moderate,Approve with Monitoring
+15000.0, 60 months,11.55,330.27,B,B4,10+ years,MORTGAGE,37000.0,Source Verified,debt_consolidation,14.4,0.0,775.0,779.0,15.0,0.0,5069.0,8.3,35.0,Individual,3.0,0.0,0.32175803,0,Moderate,Approve with Monitoring
+20000.0, 60 months,15.88,485.09,C,C4,10+ years,MORTGAGE,52000.0,Verified,debt_consolidation,25.11,0.0,710.0,714.0,10.0,0.0,22240.0,72.4,25.0,Individual,3.0,0.0,0.3027657,0,Moderate,Approve with Monitoring
+8250.0, 36 months,15.99,290.01,C,C5,10+ years,RENT,42000.0,Verified,debt_consolidation,33.14,0.0,710.0,714.0,11.0,1.0,8597.0,34.3,34.0,Individual,0.0,1.0,0.43685225,0,Moderate,Approve with Monitoring
+5000.0, 36 months,10.99,163.67,B,B2,10+ years,RENT,53000.0,Not Verified,other,23.98,0.0,720.0,724.0,5.0,0.0,9960.0,53.8,26.0,Individual,0.0,0.0,0.26332036,0,Moderate,Approve with Monitoring
+24000.0, 60 months,19.99,635.72,E,E4,10+ years,RENT,175000.0,Verified,debt_consolidation,7.91,0.0,660.0,664.0,8.0,0.0,28209.0,86.5,20.0,Individual,3.0,0.0,0.36165467,0,Moderate,Approve with Monitoring
+14000.0, 60 months,14.33,328.16,C,C1,6 years,MORTGAGE,65000.0,Verified,debt_consolidation,25.26,0.0,705.0,709.0,19.0,0.0,21879.0,53.2,46.0,Individual,5.0,0.0,0.35945314,0,Moderate,Approve with Monitoring
+20000.0, 36 months,12.62,670.23,C,C1,< 1 year,RENT,135000.0,Not Verified,other,12.76,0.0,675.0,679.0,7.0,0.0,30986.0,62.9,21.0,Individual,2.0,0.0,0.31101772,0,Moderate,Approve with Monitoring
+4800.0, 36 months,10.99,157.13,B,B4,10+ years,RENT,70000.0,Source Verified,debt_consolidation,16.2,0.0,660.0,664.0,9.0,0.0,7419.0,82.4,14.0,Individual,0.0,0.0,0.27034253,0,Moderate,Approve with Monitoring
+35000.0, 36 months,10.65,1140.07,B,B2,6 years,MORTGAGE,225000.0,Verified,debt_consolidation,8.96,0.0,735.0,739.0,13.0,0.0,18528.0,53.4,48.0,Individual,,0.0,0.28814903,0,Moderate,Approve with Monitoring
+25200.0, 60 months,16.29,616.71,D,D2,10+ years,RENT,69000.0,Verified,credit_card,18.93,0.0,675.0,679.0,16.0,0.0,24241.0,52.8,32.0,Individual,0.0,0.0,0.34876636,0,Moderate,Approve with Monitoring
+12000.0, 60 months,19.48,314.47,E,E2,1 year,OWN,52000.0,Not Verified,debt_consolidation,15.12,0.0,680.0,684.0,8.0,0.0,7197.0,48.6,8.0,Individual,0.0,0.0,0.26266703,0,Moderate,Approve with Monitoring
+9800.0, 36 months,9.99,316.18,B,B3,10+ years,MORTGAGE,30000.0,Not Verified,credit_card,17.32,0.0,700.0,704.0,11.0,0.0,13981.0,38.3,24.0,Individual,1.0,0.0,0.49240053,0,Moderate,Approve with Monitoring
+2500.0, 36 months,13.98,85.42,C,C3,2 years,MORTGAGE,37000.0,Not Verified,debt_consolidation,23.09,1.0,665.0,669.0,14.0,1.0,9152.0,41.8,17.0,Individual,0.0,0.0,0.39093894,0,Moderate,Approve with Monitoring
+5000.0, 36 months,7.99,156.66,A,A5,< 1 year,MORTGAGE,65000.0,Not Verified,home_improvement,26.27,0.0,725.0,729.0,17.0,0.0,3037.0,17.6,20.0,Individual,1.0,0.0,0.3990268,0,Moderate,Approve with Monitoring
+21625.0, 60 months,16.55,532.22,D,D2,9 years,MORTGAGE,75000.0,Source Verified,debt_consolidation,29.46,0.0,700.0,704.0,15.0,0.0,36045.0,71.4,26.0,Individual,2.0,0.0,0.44022432,0,Moderate,Approve with Monitoring
+10000.0, 60 months,15.05,238.17,C,C4,NaN,MORTGAGE,47400.0,Source Verified,debt_consolidation,14.84,0.0,680.0,684.0,10.0,0.0,6031.0,51.5,22.0,Individual,4.0,0.0,0.25260127,0,Moderate,Approve with Monitoring
+14000.0, 60 months,12.69,316.33,C,C2,5 years,MORTGAGE,64300.0,Not Verified,home_improvement,25.53,0.0,665.0,669.0,6.0,2.0,23745.0,70.0,24.0,Individual,0.0,2.0,0.36034358,0,Moderate,Approve with Monitoring
+13800.0, 36 months,6.72,424.34,A,A3,NaN,MORTGAGE,57800.0,Not Verified,home_improvement,11.15,1.0,695.0,699.0,14.0,0.0,17162.0,34.7,31.0,Individual,1.0,0.0,0.39026853,0,Moderate,Approve with Monitoring
+18000.0, 60 months,11.99,400.31,B,B5,2 years,MORTGAGE,75500.0,Not Verified,debt_consolidation,28.07,0.0,695.0,699.0,18.0,0.0,16641.0,73.6,26.0,Joint App,4.0,0.0,0.47634062,0,Moderate,Approve with Monitoring
+21000.0, 60 months,11.06,457.22,B,B3,< 1 year,RENT,65000.0,Source Verified,credit_card,13.59,0.0,695.0,699.0,8.0,1.0,21315.0,67.5,45.0,Individual,0.0,1.0,0.22406681,0,Moderate,Approve with Monitoring
+10000.0, 60 months,14.85,237.12,C,C5,< 1 year,MORTGAGE,66000.0,Not Verified,home_improvement,13.2,0.0,675.0,679.0,5.0,0.0,8109.0,88.1,15.0,Individual,1.0,0.0,0.18108755,0,Low,Approve
+17000.0, 36 months,13.35,575.67,C,C2,1 year,MORTGAGE,56600.0,Source Verified,debt_consolidation,19.76,0.0,685.0,689.0,11.0,0.0,16706.0,65.5,22.0,Individual,1.0,0.0,0.35487548,0,Moderate,Approve with Monitoring
+28000.0, 60 months,29.96,905.21,G,G4,10+ years,RENT,72000.0,Verified,debt_consolidation,24.94,0.0,660.0,664.0,12.0,0.0,20158.0,76.4,17.0,Individual,2.0,0.0,0.57789904,1,High,Manual Credit Review
+15000.0, 36 months,6.97,462.96,A,A3,8 years,MORTGAGE,94000.0,Not Verified,home_improvement,21.72,0.0,765.0,769.0,8.0,0.0,15798.0,29.0,23.0,Individual,4.0,0.0,0.108044825,0,Low,Approve
+18000.0, 60 months,19.99,476.79,E,E4,3 years,OWN,70000.0,Source Verified,debt_consolidation,15.12,1.0,675.0,679.0,15.0,0.0,9346.0,60.7,52.0,Individual,0.0,0.0,0.353451,0,Moderate,Approve with Monitoring
+11000.0, 36 months,6.24,335.84,A,A2,10+ years,OWN,100000.0,Not Verified,debt_consolidation,11.57,0.0,735.0,739.0,9.0,0.0,17132.0,37.0,17.0,Individual,3.0,0.0,0.14682813,0,Low,Approve
+9000.0, 36 months,9.17,286.92,B,B2,2 years,RENT,133000.0,Verified,credit_card,4.78,0.0,695.0,699.0,10.0,0.0,1931.0,9.6,24.0,Individual,0.0,0.0,0.18075846,0,Low,Approve
+31750.0, 36 months,12.74,1065.82,C,C1,10+ years,MORTGAGE,98300.0,Not Verified,debt_consolidation,24.12,0.0,730.0,734.0,9.0,0.0,45401.0,75.2,20.0,Individual,3.0,0.0,0.35558322,0,Moderate,Approve with Monitoring
+10000.0, 60 months,14.46,235.08,C,C4,< 1 year,RENT,40000.0,Not Verified,debt_consolidation,21.7,0.0,685.0,689.0,10.0,0.0,11095.0,56.6,14.0,Individual,0.0,0.0,0.39970046,0,Moderate,Approve with Monitoring
+4725.0, 36 months,18.99,173.18,D,D3,5 years,OWN,35253.0,Source Verified,debt_consolidation,22.61,0.0,665.0,669.0,5.0,1.0,16.0,0.5,16.0,Individual,0.0,1.0,0.2776707,0,Moderate,Approve with Monitoring
+10800.0, 60 months,12.74,244.3,C,C1,10+ years,OWN,60000.0,Not Verified,debt_consolidation,15.32,1.0,675.0,679.0,6.0,0.0,8191.0,49.6,23.0,Individual,3.0,0.0,0.24731417,0,Moderate,Approve with Monitoring
+9900.0, 36 months,11.67,327.27,B,B4,7 years,MORTGAGE,100000.0,Not Verified,debt_consolidation,16.32,0.0,670.0,674.0,9.0,0.0,15156.0,94.1,22.0,Individual,2.0,0.0,0.20479324,0,Moderate,Approve with Monitoring
+5500.0, 36 months,14.33,188.86,C,C2,2 years,RENT,28000.0,Not Verified,debt_consolidation,24.48,0.0,690.0,694.0,5.0,0.0,4844.0,89.7,10.0,Individual,0.0,0.0,0.29504484,0,Moderate,Approve with Monitoring
+10000.0, 36 months,15.31,348.18,C,C2,6 years,MORTGAGE,115000.0,Verified,medical,21.83,0.0,685.0,689.0,19.0,0.0,44707.0,70.5,42.0,Individual,1.0,0.0,0.12527393,0,Low,Approve
+15000.0, 60 months,16.99,372.71,D,D3,10+ years,RENT,125000.0,Verified,major_purchase,18.45,0.0,660.0,664.0,9.0,1.0,10747.0,90.3,21.0,Individual,4.0,1.0,0.20978124,0,Moderate,Approve with Monitoring
+8000.0, 36 months,11.53,263.93,B,B5,8 years,OWN,60000.0,Source Verified,home_improvement,9.36,0.0,665.0,669.0,7.0,0.0,1198.0,9.1,17.0,Individual,2.0,0.0,0.17255025,0,Low,Approve
+5950.0, 36 months,17.86,214.69,D,D5,3 years,RENT,35000.0,Source Verified,debt_consolidation,10.29,0.0,665.0,669.0,16.0,0.0,972.0,15.7,31.0,Individual,0.0,0.0,0.2567113,0,Moderate,Approve with Monitoring
+6000.0, 36 months,11.49,197.83,B,B5,9 years,RENT,62000.0,Source Verified,major_purchase,16.12,0.0,700.0,704.0,5.0,0.0,1794.0,74.7,7.0,Individual,0.0,0.0,0.2601414,0,Moderate,Approve with Monitoring
+11200.0, 60 months,12.69,253.07,C,C2,10+ years,MORTGAGE,98000.0,Not Verified,home_improvement,12.05,0.0,750.0,754.0,9.0,0.0,5611.0,28.5,30.0,Individual,6.0,0.0,0.15057044,0,Low,Approve
+15000.0, 36 months,7.89,469.29,A,A5,NaN,MORTGAGE,55000.0,Not Verified,debt_consolidation,27.27,0.0,715.0,719.0,14.0,0.0,14481.0,45.5,20.0,Individual,4.0,0.0,0.42527443,0,Moderate,Approve with Monitoring
+18000.0, 36 months,9.99,580.73,B,B3,4 years,RENT,72000.0,Source Verified,debt_consolidation,14.08,0.0,705.0,709.0,7.0,1.0,5053.0,32.2,12.0,Individual,0.0,1.0,0.29660526,0,Moderate,Approve with Monitoring
+4475.0, 36 months,16.99,159.53,D,D3,10+ years,MORTGAGE,100000.0,Not Verified,other,10.58,0.0,665.0,669.0,10.0,1.0,3116.0,30.5,58.0,Individual,2.0,1.0,0.11093583,0,Low,Approve
+20750.0, 36 months,17.57,745.7,D,D4,7 years,MORTGAGE,60000.0,Source Verified,debt_consolidation,34.26,0.0,705.0,709.0,13.0,0.0,28546.0,72.1,19.0,Individual,1.0,0.0,0.3337225,0,Moderate,Approve with Monitoring
+19200.0, 60 months,18.99,497.96,E,E1,10+ years,MORTGAGE,62000.0,Verified,debt_consolidation,19.32,0.0,665.0,669.0,15.0,1.0,16546.0,60.0,29.0,Individual,2.0,1.0,0.49400347,0,Moderate,Approve with Monitoring
+11850.0, 60 months,19.99,313.89,E,E4,10+ years,RENT,35000.0,Source Verified,debt_consolidation,32.3,0.0,660.0,664.0,11.0,0.0,6102.0,56.0,18.0,Individual,0.0,0.0,0.5931514,1,High,Manual Credit Review
+18000.0, 36 months,11.99,597.78,C,C1,4 years,OWN,80000.0,Verified,credit_card,22.95,0.0,665.0,669.0,8.0,0.0,7968.0,90.5,21.0,Individual,4.0,0.0,0.2977254,0,Moderate,Approve with Monitoring
+16000.0, 60 months,10.15,341.14,B,B2,6 years,MORTGAGE,80000.0,Not Verified,credit_card,10.84,0.0,715.0,719.0,16.0,0.0,46584.0,40.2,47.0,Individual,2.0,0.0,0.2960367,0,Moderate,Approve with Monitoring
+17000.0, 36 months,11.53,560.84,B,B5,4 years,OWN,48000.0,Source Verified,debt_consolidation,27.28,0.0,760.0,764.0,9.0,0.0,8424.0,26.8,19.0,Individual,0.0,0.0,0.30987865,0,Moderate,Approve with Monitoring
+16800.0, 36 months,9.67,539.49,B,B1,5 years,MORTGAGE,80000.0,Verified,debt_consolidation,11.75,0.0,735.0,739.0,9.0,0.0,14673.0,85.8,28.0,Individual,3.0,0.0,0.27178168,0,Moderate,Approve with Monitoring
+8500.0, 36 months,7.99,266.32,A,A4,10+ years,RENT,41662.0,Source Verified,debt_consolidation,22.13,0.0,705.0,709.0,7.0,0.0,5330.0,37.8,19.0,Individual,0.0,0.0,0.20353451,0,Moderate,Approve with Monitoring
+3000.0, 36 months,11.99,99.63,C,C1,6 years,RENT,31000.0,Source Verified,major_purchase,36.06,1.0,665.0,669.0,6.0,0.0,2446.0,55.6,19.0,Individual,0.0,0.0,0.43927112,0,Moderate,Approve with Monitoring
+12000.0, 36 months,6.62,368.45,A,A2,7 years,MORTGAGE,72000.0,Not Verified,debt_consolidation,16.64,0.0,710.0,714.0,21.0,0.0,13275.0,39.5,44.0,Individual,3.0,0.0,0.3742281,0,Moderate,Approve with Monitoring
