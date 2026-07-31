@@ -505,14 +505,6 @@ if submitted:
     recommendation
 )
 
-if recommendation == "Approve":
-    st.success("✅ Recommendation: APPROVE")
-
-elif recommendation == "Review":
-    st.warning("🟡 Recommendation: REVIEW")
-
-else:
-    st.error("❌ Recommendation: REJECT")
 st.markdown("---")
 
 st.subheader("📋 Applicant Summary")
