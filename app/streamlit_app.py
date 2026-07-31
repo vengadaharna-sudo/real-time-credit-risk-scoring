@@ -31,20 +31,20 @@ st.set_page_config(
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-MODEL_PATH = os.path.join(BASE_DIR, "models")
+MODEL_PATH = BASE_DIR
 
-OUTPUT_PATH = os.path.join(BASE_DIR, "outputs")
+OUTPUT_PATH = BASE_DIR
 
 # =============================================================================
 # SECTION 4 — LOAD MODEL
 # =============================================================================
 
 best_model = joblib.load(
-    os.path.join(MODEL_PATH, "best_model.pkl")
+    os.path.join(BASE_DIR, "best_model.pkl")
 )
 
 preprocessor = joblib.load(
-    os.path.join(MODEL_PATH, "preprocessor.pkl")
+    os.path.join(BASE_DIR, "preprocessor.pkl")
 )
 
 # =============================================================================
@@ -52,12 +52,8 @@ preprocessor = joblib.load(
 # =============================================================================
 
 results = pd.read_csv(
-    os.path.join(
-        OUTPUT_PATH,
-        "credit_risk_predictions.csv"
-    )
+    os.path.join(BASE_DIR, "credit_risk_predictions.csv")
 )
-
 # =============================================================================
 # SECTION 6 — PAGE TITLE
 # =============================================================================
