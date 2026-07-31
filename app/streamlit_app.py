@@ -77,3 +77,55 @@ credit risk model developed using the Lending Club dataset.
 
 """
 )
+
+# =============================================================================
+# SECTION 7 — CALCULATE KPI METRICS
+# =============================================================================
+
+total_applications = len(results)
+
+average_pd = results["Default_Probability"].mean()
+
+high_risk = (results["Risk_Level"] == "High").sum()
+
+very_high_risk = (results["Risk_Level"] == "Very High").sum()
+
+approval_rate = (
+    (results["Recommendation"] == "Approve").sum()
+    / total_applications
+) * 100
+
+# =============================================================================
+# SECTION 8 — KPI DASHBOARD
+# =============================================================================
+
+st.markdown("---")
+
+col1, col2, col3, col4, col5 = st.columns(5)
+
+col1.metric(
+    "Applications",
+    f"{total_applications:,}"
+)
+
+col2.metric(
+    "Average PD",
+    f"{average_pd:.2%}"
+)
+
+col3.metric(
+    "High Risk",
+    high_risk
+)
+
+col4.metric(
+    "Very High Risk",
+    very_high_risk
+)
+
+col5.metric(
+    "Approval Rate",
+    f"{approval_rate:.1f}%"
+)
+
+st.markdown("---")
