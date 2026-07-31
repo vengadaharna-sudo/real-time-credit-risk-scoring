@@ -129,3 +129,165 @@ col5.metric(
 )
 
 st.markdown("---")
+
+# =============================================================================
+# SECTION 9 — RISK LEVEL DISTRIBUTION
+# =============================================================================
+
+st.subheader("📊 Risk Level Distribution")
+
+risk_counts = (
+    results["Risk_Level"]
+    .value_counts()
+    .reset_index()
+)
+
+risk_counts.columns = ["Risk Level", "Applications"]
+
+fig_risk = px.bar(
+    risk_counts,
+    x="Risk Level",
+    y="Applications",
+    text="Applications",
+    title="Distribution of Predicted Credit Risk Levels"
+)
+
+fig_risk.update_traces(textposition="outside")
+
+fig_risk.update_layout(
+    xaxis_title="Risk Level",
+    yaxis_title="Number of Applications"
+)
+
+st.plotly_chart(
+    fig_risk,
+    use_container_width=True
+)
+
+# =============================================================================
+# SECTION 10 — DEFAULT PROBABILITY DISTRIBUTION
+# =============================================================================
+
+st.subheader("📈 Default Probability Distribution")
+
+fig_prob = px.histogram(
+    results,
+    x="Default_Probability",
+    nbins=30,
+    title="Distribution of Predicted Default Probabilities"
+)
+
+fig_prob.update_layout(
+    xaxis_title="Probability of Default",
+    yaxis_title="Number of Applications"
+)
+
+st.plotly_chart(
+    fig_prob,
+    use_container_width=True
+)
+
+# =============================================================================
+# SECTION 11 — PREDICTION RESULTS
+# =============================================================================
+
+st.subheader("📋 Latest Prediction Results")
+
+st.dataframe(
+    results,
+    use_container_width=True,
+    height=500
+)
+
+# =============================================================================
+# SECTION 12 — MANUAL CREDIT RISK PREDICTION
+# =============================================================================
+
+st.markdown("---")
+st.header("📝 Manual Credit Risk Prediction")
+
+with st.form("prediction_form"):
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+
+        loan_amnt = st.number_input(
+            "Loan Amount",
+            min_value=500,
+            max_value=40000,
+            value=10000
+        )
+
+        annual_inc = st.number_input(
+            "Annual Income",
+            min_value=1000,
+            value=50000
+        )
+
+        int_rate = st.number_input(
+            "Interest Rate (%)",
+            min_value=0.0,
+            max_value=40.0,
+            value=12.0
+        )
+
+        dti = st.number_input(
+            "Debt-to-Income Ratio",
+            min_value=0.0,
+            value=15.0
+        )
+
+        installment = st.number_input(
+            "Installment",
+            min_value=0.0,
+            value=300.0
+        )
+
+    with col2:
+
+        fico_low = st.number_input(
+            "FICO Low",
+            min_value=300,
+            max_value=850,
+            value=680
+        )
+
+        fico_high = st.number_input(
+            "FICO High",
+            min_value=300,
+            max_value=850,
+            value=684
+        )
+
+        revol_bal = st.number_input(
+            "Revolving Balance",
+            min_value=0,
+            value=5000
+        )
+
+        revol_util = st.number_input(
+            "Revolving Utilisation (%)",
+            min_value=0.0,
+            max_value=150.0,
+            value=35.0
+        )
+
+        total_acc = st.number_input(
+            "Total Accounts",
+            min_value=1,
+            value=15
+        )
+
+    submitted = st.form_submit_button("Predict Credit Risk")
+
+# =============================================================================
+# SECTION 13 — MAKE PREDICTION
+# =============================================================================
+
+if submitted:
+
+    st.info(
+        "Prediction functionality will be connected to the trained XGBoost model in the next section."
+    )
+
