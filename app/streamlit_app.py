@@ -500,7 +500,7 @@ if submitted:
         risk
     )
 
-     col4.metric(
+    col4.metric(
     "Recommendation",
     recommendation
 )
