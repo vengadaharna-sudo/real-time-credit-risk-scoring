@@ -447,57 +447,60 @@ if submitted:
 
     })
 
-    # Transform
+    # Transform input
 
     transformed = preprocessor.transform(input_data)
 
-    # Predict
+    # Make prediction
 
     prediction = best_model.predict(transformed)[0]
 
     probability = best_model.predict_proba(transformed)[0][1]
 
-    # Risk Level
+    # Determine risk level
 
     if probability < 0.20:
 
         risk = "Low"
-
         recommendation = "Approve"
 
     elif probability < 0.40:
 
         risk = "Moderate"
-
         recommendation = "Review"
 
     elif probability < 0.60:
 
         risk = "High"
-
         recommendation = "Review"
 
     else:
 
         risk = "Very High"
-
         recommendation = "Reject"
+
+    # Display results
 
     st.success("Prediction Complete")
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     col1.metric(
+        "Prediction",
+        "Default" if prediction == 1 else "Non-Default"
+    )
+
+    col2.metric(
         "Probability of Default",
         f"{probability:.2%}"
     )
 
-    col2.metric(
+    col3.metric(
         "Risk Level",
         risk
     )
 
-    col3.metric(
+    col4.metric(
         "Recommendation",
         recommendation
     )
