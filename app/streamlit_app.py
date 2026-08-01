@@ -14,6 +14,7 @@ import pandas as pd
 
 import streamlit as st
 import plotly.express as px
+import shap
 
 # =============================================================================
 # SECTION 2 — PAGE CONFIGURATION
@@ -46,6 +47,12 @@ best_model = joblib.load(
 preprocessor = joblib.load(
     os.path.join(BASE_DIR, "preprocessor.pkl")
 )
+
+# =============================================================================
+# LOAD SHAP EXPLAINER
+# =============================================================================
+
+explainer = shap.TreeExplainer(best_model)
 
 # =============================================================================
 # SECTION 5 — LOAD PREDICTIONS
