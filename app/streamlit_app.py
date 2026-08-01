@@ -572,3 +572,55 @@ st.dataframe(
     use_container_width=True,
     hide_index=True
 )
+
+# =============================================================================
+# SECTION 14 — EXPLAINABLE AI (SHAP)
+# =============================================================================
+
+st.markdown("---")
+st.header("🧠 Explainable AI (SHAP)")
+
+# Calculate SHAP values for the transformed input
+shap_values = explainer.shap_values(transformed)
+
+# Feature names after preprocessing
+feature_names = preprocessor.get_feature_names_out()
+
+# Create SHAP DataFrame
+shap_df = pd.DataFrame({
+    "Feature": feature_names,
+    "SHAP Value": shap_values[0]
+})
+
+# Absolute importance
+shap_df["Importance"] = shap_df["SHAP Value"].abs()
+
+# Top 10 features
+top_features = (
+    shap_df
+    .sort_values("Importance", ascending=False)
+    .head(10)
+)
+
+st.subheader("Top 10 Most Important Features")
+
+st.dataframe(
+    top_features[
+        ["Feature", "SHAP Value"]
+    ],
+    use_container_width=True,
+    hide_index=True
+)
+
+fig_shap = px.bar(
+    top_features.sort_values("SHAP Value"),
+    x="SHAP Value",
+    y="Feature",
+    orientation="h",
+    title="Top SHAP Feature Contributions"
+)
+
+st.plotly_chart(
+    fig_shap,
+    use_container_width=True
+)
