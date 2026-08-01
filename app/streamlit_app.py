@@ -508,70 +508,74 @@ if submitted:
     )
 
     col4.metric(
-    "Recommendation",
-    recommendation
-)
+        "Recommendation",
+        recommendation
+    )
 
-st.markdown("---")
+    # =============================================================================
+    # APPLICANT SUMMARY
+    # =============================================================================
 
-st.subheader("📋 Applicant Summary")
+    st.markdown("---")
 
-summary = pd.DataFrame({
-    "Feature": [
-        "Loan Amount",
-        "Loan Term",
-        "Interest Rate (%)",
-        "Monthly Installment",
-        "Annual Income",
-        "Debt-to-Income Ratio",
-        "Delinquencies (2 Years)",
-        "Open Credit Accounts",
-        "Total Credit Accounts",
-        "Mortgage Accounts",
-        "FICO Range",
-        "Loan Grade",
-        "Sub Grade",
-        "Employment Length",
-        "Home Ownership",
-        "Verification Status",
-        "Loan Purpose",
-        "Application Type",
-        "Revolving Balance",
-        "Revolving Utilisation (%)",
-        "Public Records",
-        "Public Record Bankruptcies"
-    ],
-    "Value": [
-        loan_amnt,
-        term,
-        int_rate,
-        installment,
-        annual_inc,
-        dti,
-        delinq_2yrs,
-        open_acc,
-        total_acc,
-        mort_acc,
-        f"{fico_low} - {fico_high}",
-        grade,
-        sub_grade,
-        emp_length,
-        home_ownership,
-        verification_status,
-        purpose,
-        application_type,
-        revol_bal,
-        revol_util,
-        pub_rec,
-        pub_rec_bankruptcies
-    ]
-})
+    st.subheader("📋 Applicant Summary")
 
-st.dataframe(
-    summary,
-    use_container_width=True,
-    hide_index=True
-)
+    summary = pd.DataFrame({
+        "Feature": [
+            "Loan Amount",
+            "Loan Term",
+            "Interest Rate (%)",
+            "Monthly Installment",
+            "Annual Income",
+            "Debt-to-Income Ratio",
+            "Delinquencies (2 Years)",
+            "Open Credit Accounts",
+            "Total Credit Accounts",
+            "Mortgage Accounts",
+            "FICO Range",
+            "Loan Grade",
+            "Sub Grade",
+            "Employment Length",
+            "Home Ownership",
+            "Verification Status",
+            "Loan Purpose",
+            "Application Type",
+            "Revolving Balance",
+            "Revolving Utilisation (%)",
+            "Public Records",
+            "Public Record Bankruptcies"
+        ],
+        "Value": [
+            loan_amnt,
+            term,
+            int_rate,
+            installment,
+            annual_inc,
+            dti,
+            delinq_2yrs,
+            open_acc,
+            total_acc,
+            mort_acc,
+            f"{fico_low} - {fico_high}",
+            grade,
+            sub_grade,
+            emp_length,
+            home_ownership,
+            verification_status,
+            purpose,
+            application_type,
+            revol_bal,
+            revol_util,
+            pub_rec,
+            pub_rec_bankruptcies
+        ]
+    })
+
+    st.dataframe(
+        summary,
+        use_container_width=True,
+        hide_index=True
+    )
 
 # =============================================================================
 # SECTION 14 — EXPLAINABLE AI (SHAP)
