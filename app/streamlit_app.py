@@ -581,50 +581,48 @@ if submitted:
 # SECTION 14 — EXPLAINABLE AI (SHAP)
 # =============================================================================
 
-st.markdown("---")
-st.header("🧠 Explainable AI (SHAP)")
+if submitted:
 
-# Calculate SHAP values for the transformed input
-shap_values = explainer.shap_values(transformed)
+    st.markdown("---")
+    st.header("🧠 Explainable AI (SHAP)")
 
-# Feature names after preprocessing
-feature_names = preprocessor.get_feature_names_out()
+    # Calculate SHAP values
+    shap_values = explainer.shap_values(transformed)
 
-# Create SHAP DataFrame
-shap_df = pd.DataFrame({
-    "Feature": feature_names,
-    "SHAP Value": shap_values[0]
-})
+    # Feature names after preprocessing
+    feature_names = preprocessor.get_feature_names_out()
 
-# Absolute importance
-shap_df["Importance"] = shap_df["SHAP Value"].abs()
+    # Create SHAP dataframe
+    shap_df = pd.DataFrame({
+        "Feature": feature_names,
+        "SHAP Value": shap_values[0]
+    })
 
-# Top 10 features
-top_features = (
-    shap_df
-    .sort_values("Importance", ascending=False)
-    .head(10)
-)
+    shap_df["Importance"] = shap_df["SHAP Value"].abs()
 
-st.subheader("Top 10 Most Important Features")
+    top_features = (
+        shap_df
+        .sort_values("Importance", ascending=False)
+        .head(10)
+    )
 
-st.dataframe(
-    top_features[
-        ["Feature", "SHAP Value"]
-    ],
-    use_container_width=True,
-    hide_index=True
-)
+    st.subheader("Top 10 Most Important Features")
 
-fig_shap = px.bar(
-    top_features.sort_values("SHAP Value"),
-    x="SHAP Value",
-    y="Feature",
-    orientation="h",
-    title="Top SHAP Feature Contributions"
-)
+    st.dataframe(
+        top_features[["Feature", "SHAP Value"]],
+        use_container_width=True,
+        hide_index=True
+    )
 
-st.plotly_chart(
-    fig_shap,
-    use_container_width=True
-)
+    fig_shap = px.bar(
+        top_features.sort_values("SHAP Value"),
+        x="SHAP Value",
+        y="Feature",
+        orientation="h",
+        title="Top SHAP Feature Contributions"
+    )
+
+    st.plotly_chart(
+        fig_shap,
+        use_container_width=True
+    )
